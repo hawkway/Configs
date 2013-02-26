@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# set your filemanager here
+filemgr=dolphin
+
+# set your webbrowser here, usually x-www-browser should be perfect
+webbrowser=$BROWSER
+
+### DO NOT CHANGE ANYTHING BELOW HERE unless you know what you're doing ###
+
+oldparams=$@
+
+function error {
+	zenity --error --text="$@" || kdialog --error "$@" || echo ERROR: "$@"
+}
+
+while [ "${1:0:1}" = "-" ] || [ ! -e $1 ]
+do
+	if [[ $1 =~ .*://.* ]] || [[ $1 =~ www\..*\..* ]]
+	then # could be an url
+		url=$1
+	fi
+	shift
+done
+
+if [ ! $1 = "" ]
+then
+	if [ -d $1 ]
+	then
+		toopen=$1
+	else
+		toopen=`dirname $1`
+	fi
+	$filemgr $toopen || error "There was an error opening \"$toopen\" with \"$filemgr\". Please check that you have a file manager installed and set its correct name in this script."
+else
+	if [[ $url = "" ]]
+	then
+		error "Could not open $filemgr or $webbrowser because no valid file, directory or url was found in \"$oldparams\""
+	else
+		$webbrowser $url || error "There was an error opening \"$url\" with \"$webbrowser\". Please check that you have a webbrowser installed and set its correct name in this script."
+	fi
+fi
