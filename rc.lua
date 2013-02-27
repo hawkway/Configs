@@ -661,7 +661,7 @@ globalkeys = awful.util.table.join(
 
    awful.key({ usr.modkey, }, 'q', function () usr.exec('emacs') end, 'Launch Emacs'),
 
-   awful.key({ usr.modkey, }, 's', function () usr.exec('subl') end, 'Launch Text Editor'),
+   awful.key({ usr.modkey, }, 's', function () usr.exec('subl') end, 'Launch Sublime'),
 
    awful.key({ usr.modkey, }, 'd', function () usr.exec('deadbeef') end, 'Launch DeaDBeeF'),
 

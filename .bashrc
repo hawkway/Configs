@@ -86,9 +86,9 @@ alias ping='ping -c 10'
 # scripts and folders
 # alias conk='sh ~/.config/conky/.conkyrc'
 alias ssh='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa) && ssh'
-alias sshlogin='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa)'
+#alias sshlogin='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa)'
 #
-alias loadtv='env DISPLAY=:0.0 screen /usr/bin/teamviewer7 &'
+#alias loadtv='env DISPLAY=:0.0 screen /usr/bin/teamviewer7 &'
 #
 alias community='vlc -f ~/community.xspf &'
 alias troyabed='env DISPLAY=:0.0 screen vlc -f ~/community.xspf &'
