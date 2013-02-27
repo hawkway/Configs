@@ -134,6 +134,7 @@ alias dday='launch-doomsday'
 #
 alias rmtorrent='rm -rf ~/Downloads/*.torrent'
 alias cleandir='rm -rf ~/input/zzz_EXTRACT/*'
+alias killscr='screen -X -S'
 #
 alias update='sudo pacman-color -Syu'
 alias aupdate='pacaur -Syua'
