@@ -628,8 +628,8 @@ globalkeys = awful.util.table.join(
    awful.key({ usr.modkey,           }, 'Return', function  () usr.exec(usr.terminal) end, 'Launch terminal'),
    awful.key({ usr.modkey, 'Control' }, 'r', awesome.restart, 'Reload awesome'),
    awful.key({ usr.modkey, 'Shift'   }, 'q', awesome.quit, 'Quit awesome'),
-   awful.key({ usr.modkey,           }, 'l',     function () awful.tag.incmwfact( 0.05)    end, 'Increase current client width'),
-   awful.key({ usr.modkey,           }, 'h',     function () awful.tag.incmwfact(-0.05)    end, 'Decrease current client width'),
+   --awful.key({ usr.modkey,           }, 'l',     function () awful.tag.incmwfact( 0.05)    end, 'Increase current client width'),
+   --awful.key({ usr.modkey,           }, 'h',     function () awful.tag.incmwfact(-0.05)    end, 'Decrease current client width'),
    awful.key({ usr.modkey, 'Shift'   }, 'h',     function () awful.tag.incnmaster( 1)      end),
    awful.key({ usr.modkey, 'Shift'   }, 'l',     function () awful.tag.incnmaster(-1)      end),
    awful.key({ usr.modkey, 'Control' }, 'h',     function () awful.tag.incncol( 1)         end),
@@ -671,7 +671,7 @@ globalkeys = awful.util.table.join(
 
    awful.key({ usr.modkey, }, 't', function () usr.exec('truecrypt') end, 'Launch TrueCrypt'),
 
-   awful.key({ usr.modkey, }, 'k', function () usr.exec('keepassx') end, 'Launch KeepassX'),
+   awful.key({ usr.modkey, }, ',', function () usr.exec('keepassx') end, 'Launch KeepassX'),
 
    awful.key({ usr.modkey, }, 'h', function () usr.exec('okular') end, 'Launch Okular'),
 
