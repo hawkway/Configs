@@ -4,8 +4,8 @@
 urxvtd -q -o -f
 
 ## start clipboard manager
-autocutsel -fork &
-autocutsel -selection PRIMARY -fork &
+#autocutsel -fork &
+#autocutsel -selection PRIMARY -fork &
 
 ## export some variables
 export BROWSER=firefox
