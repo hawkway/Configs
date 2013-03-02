@@ -147,6 +147,7 @@ alias pp='pacman-color -Ss'
 alias prs='sudo pacman-color -Rs'
 alias rmorphan='sudo pacman-color -Rns $(pacman -Qdtq)'
 #alias supdate='sudo powerpill-light -yu'
+alias pacman='pacman-color'
 alias pacinstall="sudo pacman-color -S"      # default action     - install one or more packages
 alias pacsearch="pacman-color -Ss"           # '[s]earch'         - search for a package using one or more keywords
 alias pacupdate="sudo pacman-color -Syu"     # '[u]pdate'         - upgrade all packages to their newest version
