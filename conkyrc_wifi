@@ -1,0 +1,100 @@
+# EEEXUBUNTU-CONKY
+
+# Create own window instead of using desktop (required in nautilus)
+own_window yes
+own_window_type override
+own_window_transparent no
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# fiddle with window
+use_spacer right
+use_xft no
+
+# Update interval in seconds
+update_interval 1.0
+
+# Minimum size of text area
+# minimum_size 250 5
+
+# Draw shades?
+draw_shades no
+
+# Text stuff
+draw_outline no # amplifies text if yes
+draw_borders no
+font courier
+uppercase no # set to yes if you want all text to be in uppercase
+
+# Stippled borders?
+stippled_borders 3
+
+# border margins
+border_margin 9
+
+# border width
+border_width 10
+
+# Default colors and also border colors, grey90 == #e5e5e5
+default_color 1691CF
+
+own_window_colour 1691CF
+own_window_transparent yes
+
+# Text alignment, other possible values are commented
+#alignment top_left
+alignment bottom_left
+#alignment bottom_left
+#alignment bottom_right
+
+# Gap between borders of screen and text
+gap_x 10
+gap_y 10 #34
+
+#Connected to ${wireless_essid eth1} at ${wireless_bitrate eth1}
+
+# stuff after 'TEXT' will be formatted on screen
+
+TEXT
+$color
+${color 1691CF}SYSTEM ${hr 2}$color
+Computer Name: $nodename 
+Operating System: ArchLinux #$sysname
+
+Kernel: $kernel 
+Architecture: $machine
+${time %a %b %d %Y %T}
+Uptime: ${uptime}
+
+${color 1691CF}CPU ${hr 2}$color
+${freq}MHz   
+Load: ${loadavg}   Temp: ${acpitemp}
+Processes: ${processes}   Running: ${running_processes}
+
+${color 1691CF}MEMORY ${hr 2}$color
+RAM:   $memperc%  ${membar 6}$color
+       ${mem} / ${memmax}
+
+Swap:  $swapperc%   ${swapbar 6}$color
+       ${swap} / ${swapmax}
+
+${color 1691CF}DISK ${hr 2}$color
+Root:  ${fs_used_perc /}%   ${fs_bar 6 /}$color 
+       ${fs_used /} / ${fs_size /}
+
+/home:  ${fs_used_perc /home}%   ${fs_bar 6 /home}$color 
+       ${fs_used /home} / ${fs_size /home}
+
+${color 1691CF}ETHERNET (${addr eth0}) ${hr 2}$color
+Down: $color${downspeed eth0} k/s ${alignr}Up: ${upspeed eth0} k/s
+${downspeedgraph eth0 25,140 000000 ff0000} ${alignr}${upspeedgraph eth0 
+25,140 000000 00ff00}$color
+
+${color 1691CF}WIRELESS (${addr eth1}) ${hr 2}$color
+Down: $color${downspeed eth1} k/s ${alignr}Up: ${upspeed eth1} k/s
+${downspeedgraph eth1 25,140 000000 ff0000} ${alignr}${upspeedgraph eth1 
+25,140 000000 00ff00}$color
+
+Connected to ${wireless_essid eth1} at ${wireless_bitrate eth1} 
