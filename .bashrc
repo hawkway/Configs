@@ -125,8 +125,8 @@ alias impress='/usr/bin/libreoffice --impress'
 alias math='/usr/bin/libreoffice --math'
 alias base='/usr/bin/libreoffice --base'
 #
-alias sshpi='ssh highway@10.1.10.13'
-alias sshelec='ssh root@10.1.10.13'
+alias sshpi='ssh highway@10.1.10.14'
+alias sshelec='ssh root@10.1.10.14'
 alias nmapscan='nmap -sP 10.1.10.1-255'
 alias doom1='prboom -iwad doom1.wad'
 alias doom2='prboom -iwad doom2.wad'
@@ -134,7 +134,8 @@ alias dday='launch-doomsday'
 #
 alias rmtorrent='rm -rf ~/Downloads/*.torrent'
 alias cleandir='rm -rf ~/input/zzz_EXTRACT/*'
-alias killscr='screen -X -S'
+alias unrarclean='unrars && cleandir'
+alias mpvbox='sudo modprobe vboxdrv'
 #
 alias update='sudo pacman-color -Syu'
 alias aupdate='pacaur -Syua'
@@ -145,6 +146,7 @@ alias aa='pacaur -Ss'
 alias p='sudo pacman-color -S'
 alias pp='pacman-color -Ss'
 alias prs='sudo pacman-color -Rs'
+alias pqs='pacman-color -Qs'
 alias rmorphan='sudo pacman-color -Rns $(pacman -Qdtq)'
 #alias supdate='sudo powerpill-light -yu'
 alias pacman='pacman-color'
@@ -163,3 +165,4 @@ export PERL_MB_OPT="--install_base /home/highway/perl5";
 export PERL_MM_OPT="INSTALL_BASE=/home/highway/perl5";
 export PERL5LIB="/home/highway/perl5/lib/perl5/x86_64-linux-thread-multi:/home/highway/perl5/lib/perl5";
 export PATH="/home/highway/perl5/bin:$PATH";
+export EDITOR=emacs
