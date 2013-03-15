@@ -54,4 +54,4 @@
 #wmctrl -s 0
 
 # exit cleanly
-exit 0
+exit $?
