@@ -651,35 +651,40 @@ globalkeys = awful.util.table.join(
    --awful.key({ usr.modkey, }, '\'', function () usr.exec('subl') end, 'Launch text editor'),
    --awful.key({ usr.modkey, }, '/', function () usr.exec('xchat') end, 'Launch IRC client'),
    
-   awful.key({ usr.modkey, }, 'f', function () usr.exec('firefox') end, 'Launch Firefox'),
 
-   awful.key({ usr.modkey, }, 'c', function () usr.exec('chromium') end, 'Launch Chromium'),
-
-   --awful.key({ usr.modkey, }, 'w', function () usr.exec('teamviewer') end, 'Launch TeamViewer'),
+   awful.key({ usr.modkey, }, 'q', function () usr.exec('emacs') end, 'Launch Emacs'),
 
    awful.key({ usr.modkey, }, 'w', function () usr.exec('env WINEPREFIX="/home/highway/.wine" wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/highway/.wine/dosdevices/c:/users/Public/Start\\ Menu/Programs/WinRAR/WinRAR.lnk') end, 'Launch WinRAR'),
 
-   awful.key({ usr.modkey, }, 'q', function () usr.exec('emacs') end, 'Launch Emacs'),
+   awful.key({ usr.modkey, }, 'e', function () usr.exec('dolphin') end, 'Launch Dolphin'),
+
+   awful.key({ usr.modkey, }, 'r', function () usr.exec('thunderbird') end, 'Launch Thunderbird'),
+
+   awful.key({ usr.modkey, }, 't', function () usr.exec('truecrypt') end, 'Launch TrueCrypt'),
+
+   awful.key({ usr.modkey, }, 'y', function () usr.exec('matlab -desktop') end, 'Launch MATLAB'),
+
+   --
+
+   awful.key({ usr.modkey, }, 'a', function () usr.exec('filezilla') end, 'Launch FileZilla'),
 
    awful.key({ usr.modkey, }, 's', function () usr.exec('subl') end, 'Launch Sublime'),
 
    awful.key({ usr.modkey, }, 'd', function () usr.exec('deadbeef') end, 'Launch DeaDBeeF'),
 
-   awful.key({ usr.modkey, }, 'e', function () usr.exec('dolphin') end, 'Launch Dolphin'),
-
-   awful.key({ usr.modkey, }, 'a', function () usr.exec('filezilla') end, 'Launch FileZilla'),
-
-   awful.key({ usr.modkey, }, 't', function () usr.exec('truecrypt') end, 'Launch TrueCrypt'),
-
-   awful.key({ usr.modkey, }, ',', function () usr.exec('keepassx') end, 'Launch KeepassX'),
-
-   awful.key({ usr.modkey, }, 'h', function () usr.exec('okular') end, 'Launch Okular'),
+   awful.key({ usr.modkey, }, 'f', function () usr.exec('firefox') end, 'Launch Firefox'),
 
    awful.key({ usr.modkey, }, 'g', function () usr.exec('env WINEPREFIX="/home/highway/.wine" wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/highway/.wine/dosdevices/c:/users/Public/Start\\ Menu/Programs/foobar2000.lnk') end, 'Launch foobar2000'),
 
+   awful.key({ usr.modkey, }, 'h', function () usr.exec('okular') end, 'Launch Okular'),
+
+   --
+
+   awful.key({ usr.modkey, }, 'c', function () usr.exec('chromium') end, 'Launch Chromium'),
+
    awful.key({ usr.modkey, }, 'b', function () usr.exec('env WINEPREFIX="/home/highway/.wine" wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/highway/.wine/dosdevices/c:/users/Public/Start\\ Menu/Programs/dBpoweramp\\ Music\\ Converter/dBpoweramp\\ Batch\\ Converter.lnk') end, 'Launch dBpoweramp'),
 
-   --awful.key({ usr.modkey, }, 'z', function () usr.exec('') end, 'Launch CuteFTP'),
+   awful.key({ usr.modkey, }, ',', function () usr.exec('keepassx') end, 'Launch KeepassX'),
 
 
 
@@ -705,15 +710,15 @@ globalkeys = awful.util.table.join(
 
 
     -- Prompt
-    awful.key({ usr.modkey },            "r",     function () mypromptbox[mouse.screen]:run() end, 'Run lua code'),
+    --awful.key({ usr.modkey },            "r",     function () mypromptbox[mouse.screen]:run() end, 'Run lua code'),
 
-    awful.key({ usr.modkey }, "x",
-              function ()
-                  awful.prompt.run({ prompt = "Run Lua code: " },
-                  mypromptbox[mouse.screen].widget,
-                  awful.util.eval, nil,
-                  awful.util.getdir("cache") .. "/history_eval")
-              end),
+    --awful.key({ usr.modkey }, "x",
+    --          function ()
+    --              awful.prompt.run({ prompt = "Run Lua code: " },
+    --              mypromptbox[mouse.screen].widget,
+    --              awful.util.eval, nil,
+    --              awful.util.getdir("cache") .. "/history_eval")
+    --          end),
 
       awful.key({ }, "F12", function () 
           scratch.drop("urxvtc -name scratch", "top", "left", 0.60, 0.40, false)

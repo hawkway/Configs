@@ -136,6 +136,8 @@ alias rmtorrent='rm -rf ~/Downloads/*.torrent'
 alias cleandir='rm -rf ~/input/zzz_EXTRACT/*'
 alias unrarcl='unrars && cleandir'
 alias mpvbox='sudo modprobe vboxdrv'
+alias e='emacs -nw'
+alias matlabn='matlab -nojvm -nodesktop'
 #
 alias update='sudo pacman-color -Syu'
 alias aupdate='pacaur -Syua'
