@@ -89,60 +89,78 @@ alias ssh='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa
 #alias sshlogin='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa)'
 #
 #alias loadtv='env DISPLAY=:0.0 screen /usr/bin/teamviewer7 &'
-#
+
+
+# vlc
 alias community='vlc -f ~/community.xspf &'
 alias troyabed='env DISPLAY=:0.0 screen vlc -f ~/community.xspf &'
 alias killvlc='env DISPLAY=:0.0 screen sh ~/bin/killvlc.sh'
 alias vlckill='sh ~/bin/killvlc.sh'
 alias monoff='env DISPLAY=:0.0 screen sh ~/bin/monitor_off.sh'
 alias monkoff='env DISPLAY=:0.0 screen sh ~/bin/killvlc_now.sh'
+
+# scripts
 alias unrars='perl ~/bin/unrar.pl'
-#
+alias rmtorrent='rm -rf ~/Downloads/*.torrent'
+alias cleandir='rm -rf ~/input/zzz_EXTRACT/*'
+alias unrarcl='unrars && cleandir'
+
+# video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'
 alias convert2iso='mkisofs -dvd-video -o AAAA.iso /home/highway/ZZZZ/'
-#
+
+# httpd
 alias starthttpd='sudo systemctl start httpd'
 alias stophttpd='sudo systemctl stop httpd'
 alias resethttpd='sudo systemctl reset httpd'
 alias statushttpd='systemctl status httpd'
-#
+
+# LAMP
 alias startlamp='sudo lamp start'
 alias stoplamp='sudo lamp stop'
 alias restartlamp='sudo lamp restart'
-#
+
+# MySQL
 alias startmysql='sudo systemctl start mysqld'
 alias stopmysql='sudo systemctl stop mysqld'
 alias resetmysql='sudo systemctl reset mysqld'
 alias statusmysql='sudo systemctl mysqld'
-#
+
+# sshd
 alias startsshd='sudo systemctl start sshd.service'
 alias stopsshd='sudo systemctl stop sshd.service'
 alias restartsshd='sudo systemctl restart sshd.service'
-#
+
+# office
 alias writer='/usr/bin/libreoffice --writer'
 alias calc='/usr/bin/libreoffice --calc'
 alias impress='/usr/bin/libreoffice --impress'
 alias math='/usr/bin/libreoffice --math'
 alias base='/usr/bin/libreoffice --base'
-#
+
+# ssh
 alias sshpi='ssh highway@10.1.10.14'
 alias sshelec='ssh root@10.1.10.14'
 alias nmapscan='nmap -sP 10.1.10.1-255'
+
+# games
 alias doom1='prboom -iwad doom1.wad'
 alias doom2='prboom -iwad doom2.wad'
 alias dday='launch-doomsday'
-#
-alias rmtorrent='rm -rf ~/Downloads/*.torrent'
-alias cleandir='rm -rf ~/input/zzz_EXTRACT/*'
-alias unrarcl='unrars && cleandir'
-alias mpvbox='sudo modprobe vboxdrv'
+
+# apps
 alias e='emacs -nw'
 alias matlabn='matlab -nojvm -nodesktop'
-#
+
+# other
+alias mpvbox='sudo modprobe vboxdrv'
+
+# updates
 alias update='sudo pacman-color -Syu'
 alias aupdate='pacaur -Syua'
 alias updates='sudo pacman-color -Syu && pacaur -Syua'
-#
+
+# pacman
 alias a='pacaur -S'
 alias aa='pacaur -Ss'
 alias p='sudo pacman-color -S'
@@ -151,18 +169,16 @@ alias prs='sudo pacman-color -Rs'
 alias pqs='pacman-color -Qs'
 alias pqdt='pacman-color -Qdt'
 alias rmorphan='sudo pacman-color -Rns $(pacman -Qdtq)'
-#alias supdate='sudo powerpill-light -yu'
 alias pacman='pacman-color'
-alias pacinstall="sudo pacman-color -S"      # default action     - install one or more packages
-alias pacsearch="pacman-color -Ss"           # '[s]earch'         - search for a package using one or more keywords
-alias pacupdate="sudo pacman-color -Syu"     # '[u]pdate'         - upgrade all packages to their newest version
-alias pacremove="sudo pacman-color -R"       # '[r]emove'         - uninstall one or more packages
-alias pacdremove="sudo pacman-color -Rs"     # '[r]emove'         - uninstall one or more packages and its dependencies
-#
+
+# power
 alias shutdown="systemctl poweroff"
 alias reboot="systemctl reboot"
-# remote server
+
+# ssh server
 source ~/.bash_ssh
+
+# exports
 export PERL_LOCAL_LIB_ROOT="/home/highway/perl5";
 export PERL_MB_OPT="--install_base /home/highway/perl5";
 export PERL_MM_OPT="INSTALL_BASE=/home/highway/perl5";
