@@ -42,6 +42,8 @@
 	#sleep 5s
 	#[ -z "$(pidof pidgin)" ] && pidgin &
 	sleep 10s
+	[ -z "$(pidof skype)" ] && skype &
+	sleep 10s
 	[ -z "$(pidof parcellite)" ] && parcellite &
 	#sleep 1800s
 	#[ -z "$(pidof teamviewer)" ] && teamviewer &
