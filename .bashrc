@@ -151,6 +151,8 @@ alias dday='launch-doomsday'
 # apps
 alias e='emacs -nw'
 alias matlabn='matlab -nojvm -nodesktop'
+alias scheme='mit-scheme'
+alias edwin='mit-scheme --edit &'
 
 # other
 alias mpvbox='sudo modprobe vboxdrv'
