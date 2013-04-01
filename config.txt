@@ -1,0 +1,11 @@
+hdmi_drive=2
+hdmi_group=2
+hdmi_mode=35
+hdmi_force_hotplug=1
+disable_overscan=1
+
+gpu_mem_512=316
+gpu_mem_256=128
+cma_lwm=16
+cma_hwm=32
+cma_offline_start=16
