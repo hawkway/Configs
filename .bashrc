@@ -139,8 +139,7 @@ alias math='/usr/bin/libreoffice --math'
 alias base='/usr/bin/libreoffice --base'
 
 # ssh
-alias sshpi='ssh highway@10.1.10.14'
-alias sshelec='ssh root@10.1.10.14'
+alias sshbbox='sh ~/bin/sshbbox.sh'
 alias nmapscan='nmap -sP 10.1.10.1-255'
 
 # games
