@@ -139,7 +139,7 @@ alias math='/usr/bin/libreoffice --math'
 alias base='/usr/bin/libreoffice --base'
 
 # ssh
-alias sshbbox='sh ~/bin/sshbbox.sh'
+alias sshwbl='sh ~/bin/ssh_wbl.sh'
 alias nmapscan='nmap -sP 10.1.10.1-255'
 
 # games
@@ -157,21 +157,20 @@ alias edwin='mit-scheme --edit &'
 alias mpvbox='sudo modprobe vboxdrv'
 
 # updates
-alias update='sudo pacman-color -Syu'
+alias update='sudo pacman -Syu'
 alias aupdate='pacaur -Syua'
-alias updates='sudo pacman-color -Syu && pacaur -Syua'
+alias updates='sudo pacman -Syu && pacaur -Syua'
 
 # pacman
 alias a='pacaur -S'
 alias aa='pacaur -Ss'
-alias p='sudo pacman-color -S'
-alias pp='pacman-color -Ss'
-alias prs='sudo pacman-color -Rs'
-alias prns='sudo pacman-color -Rns'
-alias pqs='pacman-color -Qs'
-alias pqdt='pacman-color -Qdt'
-alias rmorphan='sudo pacman-color -Rns $(pacman -Qdtq)'
-alias pacman='pacman-color'
+alias p='sudo pacman -S'
+alias pp='pacman -Ss'
+alias prs='sudo pacman -Rs'
+alias prns='sudo pacman -Rns'
+alias pqs='pacman -Qs'
+alias pqdt='pacman -Qdt'
+alias rmorphan='sudo pacman -Rns $(pacman -Qdtq)'
 
 # power
 alias shutdown="systemctl poweroff"
