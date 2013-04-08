@@ -129,6 +129,7 @@ alias statusmysql='sudo systemctl mysqld'
 # sshd
 alias startsshd='sudo systemctl start sshd.service'
 alias stopsshd='sudo systemctl stop sshd.service'
+alias statussshd='systemctl status sshd.service'
 alias restartsshd='sudo systemctl restart sshd.service'
 
 # office
