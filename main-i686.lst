@@ -208,7 +208,6 @@ tls
 tor
 torsocks
 traceroute
-transmission-cli
 truecrypt
 ttf-bitstream-vera
 udevil
@@ -229,6 +228,7 @@ wget
 whois
 wine
 wireshark-cli
+wireshark-gtk
 wmctrl
 wpa_supplicant
 xbindkeys
