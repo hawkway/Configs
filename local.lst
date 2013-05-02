@@ -6,11 +6,13 @@ doomsday
 dropbox
 gtkhash
 kmplayer
-lib32-opencl-nvidia
+libmysqlclient
 libreoffice-extension-languagetool
 metasploit
 mit-scheme
 montecarlo-font
+mysql
+mysql-clients
 mysqltcl
 neuropolitical_font
 pacaur

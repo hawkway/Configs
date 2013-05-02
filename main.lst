@@ -9,6 +9,7 @@ apache
 arch-install-scripts
 archlinux-wallpaper
 artwiz-fonts
+asciidoc
 audio-convert
 autoconf
 autocutsel
@@ -109,6 +110,7 @@ lib32-libxft
 lib32-mpg123
 lib32-nvidia-libgl
 lib32-openal
+lib32-opencl-nvidia
 libisoburn
 libmodplug
 libmythes
@@ -145,7 +147,6 @@ moc
 mtools
 multitail
 mumble
-mysql
 mythes-en
 namcap
 nethogs
