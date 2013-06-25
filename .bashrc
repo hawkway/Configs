@@ -160,7 +160,7 @@ alias mpvbox='sudo modprobe vboxdrv'
 # updates
 alias update='sudo pacman -Syu'
 alias aupdate='pacaur -Syua'
-alias updates='sudo pacman -Syu && pacaur -Syua && cclean'
+alias updates='sudo pacman -Syu && pacaur -Syua && cclean && gh -b'
 
 # pacman
 alias a='pacaur -S'

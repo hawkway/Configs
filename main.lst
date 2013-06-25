@@ -71,7 +71,6 @@ gnome-icon-theme-extras
 gnunet-gtk
 gparted
 gpicview
-grub-bios
 gstreamer0.10-bad
 gstreamer0.10-base-plugins
 gstreamer0.10-good
@@ -94,8 +93,10 @@ john
 jre7-openjdk
 jshon
 k3b
+kde-base-artwork
 kdebase-dolphin
 kdebase-plasma
+kdebase-workspace
 kdegames-kmahjongg
 kdegraphics-ksnapshot
 kdegraphics-okular
@@ -184,6 +185,7 @@ pinta
 pkg-config
 pkgfile
 polipo
+ppp
 preload
 privoxy
 pystatgrab
