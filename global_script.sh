@@ -33,7 +33,7 @@
 	###[ -z "$(pidof sublime_text)" ] && subl
 	#[ -z "$(pidof spacefm)" ] && spacefm &
 	#[ -z "$(pidof firefox)" ] && firefox &
-	[ -z "$(pidof dropbox)" ] && dropboxd &
+	#[ -z "$(pidof dropbox)" ] && dropboxd &
 	#[ -z "$(pidof transmission-daemon)" ] && sudo systemctl start transmission.service
 	#[ -z "$(pidof mocp)" ] && urxvtc -name "MOCP" -e mocp &
 	killall conky
