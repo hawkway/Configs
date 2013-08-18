@@ -170,7 +170,7 @@ parcellite
 patch
 php
 php-apache
-php-apc
+php-apcu
 php-gd
 php-geoip
 php-intl
