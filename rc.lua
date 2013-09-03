@@ -683,6 +683,8 @@ globalkeys = awful.util.table.join(
 
    awful.key({ usr.modkey, }, 'c', function () usr.exec('chromium') end, 'Launch Chromium'),
 
+   awful.key({ usr.modkey, }, 'v', function () usr.exec('netbeans') end, 'Launch Netbeans'),
+
    awful.key({ usr.modkey, }, 'b', function () usr.exec('env WINEPREFIX="/home/highway/.wine" wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/highway/.wine/dosdevices/c:/users/Public/Start\\ Menu/Programs/dBpoweramp\\ Music\\ Converter/dBpoweramp\\ Batch\\ Converter.lnk') end, 'Launch dBpoweramp'),
 
    awful.key({ usr.modkey, }, ',', function () usr.exec('keepassx') end, 'Launch KeepassX'),
