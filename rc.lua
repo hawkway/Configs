@@ -669,7 +669,7 @@ globalkeys = awful.util.table.join(
 
    awful.key({ usr.modkey, }, 'a', function () usr.exec('filezilla') end, 'Launch FileZilla'),
 
-   awful.key({ usr.modkey, }, 's', function () usr.exec('subl3') end, 'Launch Sublime'),
+   awful.key({ usr.modkey, }, 's', function () usr.exec('subl') end, 'Launch Sublime'),
 
    awful.key({ usr.modkey, }, 'd', function () usr.exec('deadbeef') end, 'Launch DeaDBeeF'),
 

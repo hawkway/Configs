@@ -233,6 +233,7 @@ wine
 wireshark-cli
 wireshark-gtk
 wmctrl
+wmname
 wpa_supplicant
 xbindkeys
 xclip
