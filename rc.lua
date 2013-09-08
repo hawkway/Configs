@@ -680,6 +680,8 @@ globalkeys = awful.util.table.join(
    awful.key({ usr.modkey, }, 'h', function () usr.exec('okular') end, 'Launch Okular'),
 
    --
+   
+   awful.key({ usr.modkey, }, 'z', function () usr.exec('ksnapshot') end, 'Launch KSnapshot'),
 
    awful.key({ usr.modkey, }, 'c', function () usr.exec('chromium') end, 'Launch Chromium'),
 
