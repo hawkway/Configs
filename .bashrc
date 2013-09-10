@@ -105,6 +105,9 @@ alias rmtorrent='rm -rf ~/Downloads/*.torrent'
 alias cleandir='rm -rf ~/input/zzz_EXTRACT/*'
 alias unrarcl='unrars && cleandir'
 
+# CIT
+alias cit='cd input/CIT_245'
+
 # video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'
 alias convert2iso='mkisofs -dvd-video -o AAAA.iso /home/highway/ZZZZ/'
