@@ -107,6 +107,7 @@ alias unrarcl='unrars && cleandir'
 
 # CIT
 alias cit='cd input/CIT_245'
+alias netb='cd input/CIT_245/NetBeansProjects'
 
 # video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'
