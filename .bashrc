@@ -102,7 +102,7 @@ alias monkoff='env DISPLAY=:0.0 screen sh ~/bin/killvlc_now.sh'
 # scripts
 alias unrars='perl ~/bin/unrar.pl'
 alias rmtorrent='rm -rf ~/Downloads/*.torrent'
-alias cleandir='rm -rf ~/input/zzz_EXTRACT/*'
+alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
 
 # CIT
