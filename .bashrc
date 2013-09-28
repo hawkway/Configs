@@ -104,6 +104,7 @@ alias unrars='perl ~/bin/unrar.pl'
 alias rmtorrent='rm -rf ~/Downloads/*.torrent'
 alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
+alias citbak='sh ~/bin/cit245_bu.sh'
 
 # CIT
 alias cit='cd input/CIT_245'
