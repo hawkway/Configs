@@ -691,6 +691,10 @@ globalkeys = awful.util.table.join(
 
    awful.key({ usr.modkey, }, ',', function () usr.exec('keepassx') end, 'Launch KeepassX'),
 
+   -- scripts section --
+
+   awful.key({ usr.modkey, 'Control' }, 'm', function () usr.exec('sh '.. home_path .. 'bin/remove.sh') end, 'Remove excess files . . .'),
+
 
 
    -- yubnub try, 'ls dictionary'
