@@ -33,7 +33,7 @@
 	###[ -z "$(pidof sublime_text)" ] && subl
 	#[ -z "$(pidof spacefm)" ] && spacefm &
 	#[ -z "$(pidof firefox)" ] && firefox &
-	#[ -z "$(pidof dropbox)" ] && dropboxd &
+	[ -z "$(pidof dropbox)" ] && dropboxd &
 	#[ -z "$(pidof transmission-daemon)" ] && sudo systemctl start transmission.service
 	#[ -z "$(pidof mocp)" ] && urxvtc -name "MOCP" -e mocp &
 	killall conky
@@ -43,7 +43,7 @@
 	#[ -z "$(pidof pidgin)" ] && pidgin &
 	sleep 10s
 	[ -z "$(pidof truecrypt)" ] && truecrypt &
-	sleep 60s
+	sleep 70s
 	[ -z "$(pidof keepassx)" ] && keepassx &
 	sleep 30s
 	[ -z "$(pidof parcellite)" ] && parcellite &
