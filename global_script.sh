@@ -36,9 +36,9 @@
 	[ -z "$(pidof dropbox)" ] && dropboxd &
 	#[ -z "$(pidof transmission-daemon)" ] && sudo systemctl start transmission.service
 	#[ -z "$(pidof mocp)" ] && urxvtc -name "MOCP" -e mocp &
-	#killall conky
-	#sleep 2s
-	#[ -z "$(pidof conky)" ] && conky -d -c "$HOME"/.config/conky/.conkyrc &
+	killall conky
+	sleep 2s
+	[ -z "$(pidof conky)" ] && conky -d -c "$HOME"/.config/conky/.conkyrc &
 	#sleep 5s
 	#[ -z "$(pidof pidgin)" ] && pidgin &
 	sleep 10s
