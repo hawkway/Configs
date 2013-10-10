@@ -159,6 +159,7 @@ alias e='emacs -nw'
 alias matlabn='matlab -nojvm -nodesktop'
 alias scheme='mit-scheme'
 alias edwin='mit-scheme --edit &'
+alias g11='g++ -std=c++11'
 
 # other
 alias mpvbox='sudo modprobe vboxdrv'
