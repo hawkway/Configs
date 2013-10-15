@@ -697,6 +697,8 @@ globalkeys = awful.util.table.join(
 
    awful.key({ usr.modkey, 'Control' }, 'u', function () usr.exec('perl '.. home_path .. 'bin/unrar.pl') end, 'Extract files . . .'),
 
+   awful.key({ usr.modkey, 'Control' }, 't', function () usr.exec('sh '.. home_path .. 'bin/move_tv.sh') end, 'Move files . . .'),
+
 
 
    -- yubnub try, 'ls dictionary'
