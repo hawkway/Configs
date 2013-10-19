@@ -8,8 +8,9 @@ urxvtd -q -o -f
 #autocutsel -selection PRIMARY -fork &
 
 ## export some variables
-export BROWSER=firefox
+export BROWSER=chromium
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
+export LANG=en_US.UTF-8
 
 ## login sound
 #ogg123 -q "${HOME}/.config/awesome/sounds/voice-system-activated.ogg"

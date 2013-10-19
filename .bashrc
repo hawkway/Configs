@@ -20,7 +20,7 @@ function ii()   # Get current host related info.
   echo
 }
 alias ls='ls --color=auto'
-alias ping='ping -c 5'
+alias ping='ping -c 3'
 alias pong='tsocks ping -c 5'
 # safety features
 alias cp='cp -i'
@@ -36,25 +36,14 @@ alias matrix='cmatrix -C magenta'
 # useful stuff
 alias ..='cd ..'
 alias ...='cd ../..'
+
 alias dev='cd ~/Development'
 alias backup=' sh ~/bin/backup_pkgs'
-alias nc='ncmpcpp'
+
 alias grep='grep --color=auto'
-alias mounthdd='sudo udisks --mount /dev/sdb4'
-alias mounthdd3='sudo udisks --mount /dev/sdb3'
-#alias sploit='/opt/metasploit-4.2.0/msfconsole'
-alias kdeicons='rm ~/.kde4/cache-linux/icon-cache.kcache'
-alias deltrash1='sudo rm -rv /media/truecrypt1/.Trash-1000/'
-alias deltrash2='sudo rm -rv /media/truecrypt2/.Trash-1000/'
-alias deltrash='rm -rv ~/.local/share/Trash/'
-alias sdeltrash1='sudo srm -rv /media/truecrypt1/.Trash-1000/'
-alias sdeltrash2='sudo srm -rv /media/truecrypt2/.Trash-1000/'
-alias sdeltrash='srm -rv ~/.local/share/Trash/'
-alias delthumbs='srm -rv ~/.thumbnails/'
+
 alias reload='source ~/.bashrc'
-alias xdef='xrdb -merge ~/.Xdefaults' 
-alias flushdns="sudo /etc/rc.d/nscd restart"
-alias delfonts='fc-cache -vf'
+
 alias cclean='sudo cacheclean -v 1'
 alias git='hub'
 #alias irssi='urxvt -e irssi &'
@@ -70,26 +59,9 @@ alias mirror='sudo reflector -c "Canada United States" -f 6 > mirrorlist'
 #alias dvdc='eject -t /dev/dvd'
 # modified commands
 alias home='cd ~'
-#alias pg='ps aux | grep'  #requires an argument
-alias ping='ping -c 10'
-# chmod commands
-#alias mx='chmod a+x'
-#alias 000='chmod 000'
-#alias 644='chmod 644'
-#alias 755='chmod 755'
-#alias tl='tail -f /var/log/syslog.log'
-#alias tk='tail -f /var/log/kernel.log'
-#alias th='tail -f /var/log/httpd/error_log'
-#alias te='tail -f /var/log/errors.log'
-# local server
-#alias counter='ssh 192.168.2.107 -l root'
-# scripts and folders
-# alias conk='sh ~/.config/conky/.conkyrc'
+
 alias ssh='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa) && ssh'
 #alias sshlogin='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa)'
-#
-#alias loadtv='env DISPLAY=:0.0 screen /usr/bin/teamviewer7 &'
-
 
 # vlc
 alias community='vlc -f ~/community.xspf &'
