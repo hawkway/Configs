@@ -693,11 +693,19 @@ globalkeys = awful.util.table.join(
 
    -- scripts section --
 
-   awful.key({ usr.modkey, 'Control' }, 'm', function () usr.exec('sh '.. home_path .. 'bin/remove.sh') end, 'Remove excess files . . .'),
-
    awful.key({ usr.modkey, 'Control' }, 'u', function () usr.exec('perl '.. home_path .. 'bin/unrar.pl') end, 'Extract files . . .'),
 
    awful.key({ usr.modkey, 'Control' }, 't', function () usr.exec('sh '.. home_path .. 'bin/move_tv.sh') end, 'Move files . . .'),
+
+   --
+
+   awful.key({ usr.modkey, 'Control' }, 'k', function () usr.exec('ksnapshot') end, 'Launch kSnapshot'),
+
+   --
+
+   awful.key({ usr.modkey, 'Control' }, 'c', function () usr.exec('speedcrunch') end, 'Launch SpeedCrunch'),
+
+   awful.key({ usr.modkey, 'Control' }, 'm', function () usr.exec('sh '.. home_path .. 'bin/remove.sh') end, 'Remove excess files . . .'),
 
 
 
