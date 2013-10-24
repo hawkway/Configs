@@ -665,8 +665,6 @@ globalkeys = awful.util.table.join(
 
    awful.key({ usr.modkey, }, 'y', function () usr.exec('matlab -desktop') end, 'Launch MATLAB'),
 
-   awful.key({ usr.modkey, }, 'i', function () usr.exec('env WINEPREFIX="/home/highway/.wine" wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/highway/.wine/dosdevices/c:/users/Public/Start\\ Menu/Programs/TV_Rename/TV_Rename.lnk') end, 'Launch TV_Rename'),
-
    --
 
    awful.key({ usr.modkey, }, 'a', function () usr.exec('filezilla') end, 'Launch FileZilla'),
