@@ -6,6 +6,14 @@ deadbeef-git
 doomsday
 downgrade
 dropbox
+efl-git
+efl-git-debug
+elementary-git
+elementary-git-debug
+elementary_test-git
+elementary_test-git-debug
+enlightenment17-git
+enlightenment17-git-debug
 gtkhash
 kmplayer
 libmysqlclient
@@ -32,6 +40,7 @@ speedcrunch
 stjerm
 sublime-text
 systemd-ui-git
+terminology
 transcoder
 ttf-envy-code-r
 ttf-mplus

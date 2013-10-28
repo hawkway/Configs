@@ -46,7 +46,6 @@ dvd+rw-tools
 elinks
 emacs
 encfs
-enlightenment17
 epdfview
 fakeroot
 feh
@@ -196,6 +195,7 @@ rxvt-unicode
 samba
 screen
 scrot
+spacefm
 squashfs-tools
 sshfs
 sudo
