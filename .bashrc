@@ -120,6 +120,7 @@ alias base='/usr/bin/libreoffice --base'
 # ssh
 alias sshwbl='sh ~/bin/ssh_wbl.sh'
 alias sshades='sh ~/bin/ssh_hades.sh'
+alias hadesf='sh ~/bin/lftp_box.sh'
 alias nmapscan='nmap -sP 10.1.10.1-255'
 
 # games

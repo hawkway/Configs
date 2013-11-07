@@ -10,6 +10,7 @@ archey3
 archlinux-wallpaper
 artwiz-fonts
 asciidoc
+atop
 audio-convert
 autoconf
 autocutsel
@@ -103,6 +104,7 @@ kdemultimedia-ffmpegthumbs
 kdeutils-ark
 keepassx
 keychain
+lftp
 lib32-gtk2
 lib32-libldap
 lib32-libtxc_dxtn
