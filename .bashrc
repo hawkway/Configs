@@ -78,6 +78,7 @@ alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
 alias citbak='sh ~/bin/cit245_bu.sh'
 alias movetv='sh ~/bin/move_tv.sh'
+alias unrarclt='unrarcl && movetv'
 
 # CIT
 alias cit='cd input/CIT_245'
