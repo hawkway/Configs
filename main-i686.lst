@@ -129,6 +129,7 @@ libstatgrab
 libtool
 libunique
 libxft
+linuxdcpp
 lm_sensors
 lua51-filesystem
 lua51-socket
