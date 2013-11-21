@@ -193,6 +193,7 @@ privoxy
 pystatgrab
 python
 python2-beautifulsoup4
+python2-pip
 python2-pyinotify
 rsync
 rxvt-unicode
@@ -209,7 +210,6 @@ tcpdump
 terminus-font
 thunderbird
 tig
-tightvnc
 tls
 tor
 torsocks

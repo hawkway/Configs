@@ -13,6 +13,7 @@ elementary_test-git
 elementary_test-git-debug
 enlightenment17-git
 enlightenment17-git-debug
+flexget
 gtkhash
 kmplayer
 libmysqlclient
@@ -27,8 +28,13 @@ packer
 pacmanlog2gource
 prboom
 preload
-pyrss2gen
+python2-certifi
+python2-jsonschema
 python2-pynzb
+python2-pyrss2gen
+python2-sqlalchemy-0.7.9
+python2-tmdb3
+python2-tvrage
 python3-aur
 python3-xynexdg
 ruby1.9
@@ -40,6 +46,7 @@ stjerm
 sublime-text
 systemd-ui-git
 terminology
+tightvnc
 transcoder
 ttf-envy-code-r
 ttf-mplus
