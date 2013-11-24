@@ -138,6 +138,7 @@ alias matlabn='matlab -nojvm -nodesktop'
 alias scheme='mit-scheme'
 alias edwin='mit-scheme --edit &'
 alias g11='g++ -std=c++11'
+alias flex='flexget --disable-advancement -v'
 
 # other
 alias mpvbox='sudo modprobe vboxdrv'
