@@ -48,6 +48,7 @@ alias cclean='sudo cacheclean -v 1'
 alias git='hub'
 #alias irssi='urxvt -e irssi &'
 alias weechat='screen weechat-curses'
+alias irssi='screen irssi'
 #alias finch='urxvt -e finch &'
 alias mirror='sudo reflector -c "Canada United States" -f 6 > mirrorlist'
 #
@@ -123,7 +124,8 @@ alias base='/usr/bin/libreoffice --base'
 
 # ssh
 alias sshwbl='sh ~/bin/ssh_wbl.sh'
-alias sshades='sh ~/bin/ssh_hades.sh'
+alias hades='sh ~/bin/ssh_hades.sh'
+alias cosmos='sh ~/bin/ssh_cosmos.sh'
 alias hadesf='sh ~/bin/lftp_box.sh'
 alias nmapscan='nmap -sP 10.1.10.1-255'
 
