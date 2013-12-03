@@ -127,7 +127,7 @@ alias sshwbl='sh ~/bin/ssh_wbl.sh'
 alias hades='sh ~/bin/ssh_hades.sh'
 alias cosmos='sh ~/bin/ssh_cosmos.sh'
 alias hadesf='sh ~/bin/lftp_box.sh'
-alias nmapscan='nmap -sP 10.1.10.1-255'
+alias nmapscan='nmap -sP 192.168.1.1-255'
 
 # games
 alias doom1='prboom -iwad doom1.wad'
