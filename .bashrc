@@ -82,7 +82,7 @@ alias movetv='sh ~/bin/move_tv.sh'
 alias movevid='sh ~/bin/move_video.sh'
 
 alias unrarclt='unrarcl && movetv'
-alias unrarclsev='unrarcl && movevid'
+alias unrarclv='unrarcl && movevid'
 
 # CIT
 alias cit='cd input/CIT_245'
