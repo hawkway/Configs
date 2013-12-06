@@ -42,7 +42,7 @@ alias backup=' sh ~/bin/backup_pkgs'
 
 alias grep='grep --color=auto'
 
-alias reload='source ~/.bashrc'
+alias reload='clear && source ~/.bashrc'
 
 alias cclean='sudo cacheclean -v 1'
 alias git='hub'
