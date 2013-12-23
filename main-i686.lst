@@ -18,6 +18,7 @@ automake
 avidemux-qt
 awesome
 baobab
+bash-completion
 binutils
 bison
 bitlbee
@@ -50,6 +51,7 @@ elinks
 emacs
 encfs
 epdfview
+expac
 fakeroot
 feh
 filezilla
