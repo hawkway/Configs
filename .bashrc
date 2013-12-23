@@ -138,6 +138,7 @@ alias dday='launch-doomsday'
 
 # apps
 alias e='emacs -nw'
+alias es='sudo emacs -nw'
 alias matlabn='matlab -nojvm -nodesktop'
 alias scheme='mit-scheme'
 alias edwin='mit-scheme --edit &'
@@ -150,7 +151,7 @@ alias mpvbox='sudo modprobe vboxdrv'
 # updates
 alias update='sudo pacman -Syu'
 alias syua='pacaur -Syua'         # update aur packages
-alias syud='pacaur -Syua --devel' # update devel packages
+alias devel='pacaur -Syua --devel' # update devel packages
 alias updates='sudo pacman -Syu && pacaur -Syua && gh -b'
 
 # pacman
