@@ -44,7 +44,7 @@ alias grep='grep --color=auto'
 
 alias reload='clear && source ~/.bashrc'
 
-alias cclean='sudo cacheclean -v 1'
+alias cclean='sudo pkgcacheclean -v'
 alias git='hub'
 #alias irssi='urxvt -e irssi &'
 alias weechat='screen weechat-curses'
@@ -152,7 +152,7 @@ alias mpvbox='sudo modprobe vboxdrv'
 alias update='sudo pacman -Syu'
 alias syua='pacaur -Syua'         # update aur packages
 alias devel='pacaur -Syua --devel' # update devel packages
-alias updates='sudo pacman -Syu && pacaur -Syua && gh -b'
+alias updates='sudo pacman -Syu && pacaur -Syua && cclean && gh -b'
 
 # pacman
 alias a='pacaur -S'
@@ -179,4 +179,4 @@ export PERL_MM_OPT="INSTALL_BASE=/home/highway/perl5";
 export PERL5LIB="/home/highway/perl5/lib/perl5/x86_64-linux-thread-multi:/home/highway/perl5/lib/perl5";
 export PATH="~/perl5/bin:$PATH";
 export PATH="~/bin:$PATH";
-export EDITOR=emacs
+export EDITOR=nano
