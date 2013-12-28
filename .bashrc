@@ -169,6 +169,9 @@ alias rmorphan='sudo pacman -Rns $(pacman -Qdtq)'
 alias shutdown="systemctl poweroff"
 alias reboot="systemctl reboot"
 
+# ugh
+alias internet='sudo systemctl start network@eno1.service'
+
 # ssh server
 source ~/.bash_ssh
 
