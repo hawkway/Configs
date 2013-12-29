@@ -13,6 +13,7 @@ enlightenment17-git
 enlightenment17-git-debug
 flexget
 gtk-theme-flatstudio
+libmtp
 mit-scheme
 montecarlo-font
 neuropolitical_font
@@ -25,6 +26,7 @@ python2-pynzb
 python2-pyrss2gen
 python2-sqlalchemy-0.7.9
 python2-tvrage
+rasqal
 speedcrunch
 sublime-text
 terminology-git

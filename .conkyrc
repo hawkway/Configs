@@ -2,8 +2,8 @@
 
 # Create own window instead of using desktop (required in nautilus)
 own_window yes
-own_window_type override
-own_window_transparent no
+own_window_type normal
+own_window_transparent yes
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
 # Use double buffering (reduces flicker, may not work for everyone)
@@ -11,7 +11,11 @@ double_buffer yes
 
 # fiddle with window
 use_spacer right
-use_xft no
+use_xft yes
+xftfont Terminus:size=10
+xftalpha 1
+
+override_utf8_locale yes
 
 # Update interval in seconds
 update_interval 1.0
@@ -25,23 +29,20 @@ draw_shades no
 # Text stuff
 draw_outline no # amplifies text if yes
 draw_borders no
-font courier
+#font courier
 uppercase no # set to yes if you want all text to be in uppercase
 
 # Stippled borders?
-stippled_borders 3
+#stippled_borders 3
 
 # border margins
-border_margin 9
+#border_margin 9
 
 # border width
 border_width 10
 
 # Default colors and also border colors, grey90 == #e5e5e5
 default_color 1691CF
-
-own_window_colour 1691CF
-own_window_transparent yes
 
 # Text alignment, other possible values are commented
 #alignment top_left
@@ -50,8 +51,8 @@ alignment bottom_left
 #alignment bottom_right
 
 # Gap between borders of screen and text
-gap_x 10
-gap_y 5 #34
+gap_x 0
+gap_y 0 #34
 
 #Connected to ${wireless_essid eth1} at ${wireless_bitrate eth1}
 
@@ -73,6 +74,17 @@ ${freq}MHz
 Load: ${loadavg}   Temp: ${acpitemp}
 Processes: ${processes}   Running: ${running_processes}
 
+Core Temps: ${execi 30 sensors | grep 'Core 0:' | cut -c18-19}°C / ${execi 30 sensors | grep 'Core 1:' | cut -c18-19}°C / ${execi 30 sensors | grep 'Core 2:' | cut -c18-19}°C / ${execi 30 sensors | grep 'Core 3:' | cut -c18-19}°C
+
+CPU_1: ${cpu cpu1}% ${cpubar cpu1}
+CPU_2: ${cpu cpu2}% ${cpubar cpu2}
+CPU_3: ${cpu cpu3}% ${cpubar cpu3}
+CPU_4: ${cpu cpu4}% ${cpubar cpu4}
+CPU_5: ${cpu cpu5}% ${cpubar cpu5}
+CPU_6: ${cpu cpu6}% ${cpubar cpu6}
+CPU_7: ${cpu cpu7}% ${cpubar cpu7}
+CPU_8: ${cpu cpu8}% ${cpubar cpu8}
+
 ${color 1691CF}MEMORY ${hr 2}$color
 RAM:   $memperc%  ${membar 6}$color
        ${mem} / ${memmax}
@@ -87,7 +99,16 @@ Root:  ${fs_used_perc /}%   ${fs_bar 6 /}$color
 /home:  ${fs_used_perc /home}%   ${fs_bar 6 /home}$color 
        ${fs_used /home} / ${fs_size /home}
 
-${color 1691CF}ETHERNET (${addr eth0}) ${hr 2}$color
-Down: $color${downspeed eth0} k/s ${alignr}Up: ${upspeed eth0} k/s
-${downspeedgraph eth0 25,140 000000 ff0000} ${alignr}${upspeedgraph eth0 
+/tc1:  ${fs_used_perc /mnt/truecrypt1}%   ${fs_bar 6 /mnt/truecrypt1}$color 
+       ${fs_used /mnt/truecrypt1} / ${fs_size /mnt/truecrypt1}
+
+/tc2:  ${fs_used_perc /mnt/truecrypt2}%   ${fs_bar 6 /mnt/truecrypt2}$color 
+       ${fs_used /mnt/truecrypt2} / ${fs_size /mnt/truecrypt2}
+
+/tc3:  ${fs_used_perc /mnt/truecrypt3}%   ${fs_bar 6 /mnt/truecrypt3}$color 
+       ${fs_used /mnt/truecrypt3} / ${fs_size /mnt/truecrypt3}       
+
+${color 1691CF}ETHERNET (${addr eno1}) ${hr 2}$color
+Down: $color${downspeed eno1} k/s ${alignr}Up: ${upspeed eno1} k/s
+${downspeedgraph eno1 25,140 000000 ff0000} ${alignr}${upspeedgraph eno1 
 25,140 000000 00ff00}$color
