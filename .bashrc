@@ -148,6 +148,10 @@ alias flex='flexget --disable-advancement -v'
 # other
 alias mpvbox='sudo modprobe vboxdrv'
 
+# system
+alias _='sudo'
+alias ss='sudo systemctl'
+
 # updates
 alias update='sudo pacman -Syu'
 alias syua='pacaur -Syua'         # update aur packages
