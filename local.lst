@@ -3,6 +3,14 @@ cower
 doomsday
 downgrade
 dropbox
+efl-git
+efl-git-debug
+elementary-git
+elementary-git-debug
+elementary_test-git
+elementary_test-git-debug
+enlightenment-git
+enlightenment-git-debug
 flexget
 gtk-theme-flatstudio
 mit-scheme
@@ -20,6 +28,8 @@ python2-sqlalchemy-0.7.9
 python2-tvrage
 speedcrunch
 sublime-text
+terminology-git
+terminology-git-debug
 ttf-envy-code-r
 ttf-mplus
 ttf-ms-fonts
