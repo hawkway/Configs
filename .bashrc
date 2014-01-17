@@ -123,7 +123,7 @@ alias math='/usr/bin/libreoffice --math'
 alias base='/usr/bin/libreoffice --base'
 
 # ssh
-alias sshwbl='sh ~/bin/ssh_wbl.sh'
+alias wobblez='sh ~/bin/ssh_wbl.sh'
 alias hades='sh ~/bin/ssh_hades.sh'
 alias cosmos='sh ~/bin/ssh_cosmos.sh'
 alias compass='sh ~/bin/ssh_work.sh'
