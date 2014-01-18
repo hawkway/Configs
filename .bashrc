@@ -22,6 +22,7 @@ function ii()   # Get current host related info.
 alias ls='ls --color=auto'
 alias ping='ping -c 3'
 alias pong='tsocks ping -c 5'
+
 # safety features
 alias cp='cp -i'
 alias mv='mv -i'
@@ -30,9 +31,9 @@ alias ln='ln -i'
 alias chown='chown --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
-# fun stuff
-#alias bender='cowsay -f bender $(fortune -so)'
+
 alias matrix='cmatrix -C magenta'
+
 # useful stuff
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -123,6 +124,7 @@ alias math='/usr/bin/libreoffice --math'
 alias base='/usr/bin/libreoffice --base'
 
 # ssh
+alias raspi='sh ~/bin/ssh_pi.sh'
 alias wobblez='sh ~/bin/ssh_wbl.sh'
 alias hades='sh ~/bin/ssh_hades.sh'
 alias cosmos='sh ~/bin/ssh_cosmos.sh'
@@ -147,6 +149,7 @@ alias flex='flexget --disable-advancement -v'
 
 # other
 alias mpvbox='sudo modprobe vboxdrv'
+alias rc='e ~/.bashrc'
 
 # system
 alias _='sudo'
