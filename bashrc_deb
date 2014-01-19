@@ -111,9 +111,9 @@ alias reload='source ~/.bashrc'
 alias home="cd ~"
 
 # scripts
-alias wwwbak='sh ~/wwwbackup.sh'
-alias tc='sh tc.sh'
-alias cit="cd Dropbox/CIT_245"
+alias wwwbak='sh ~/bin/wwwbackup.sh'
+alias tc='sh ~/bin/tc.sh'
+alias cit="cd ~/Dropbox/CIT_245"
 
 # programs
 alias irssi='screen irssi'
@@ -138,6 +138,8 @@ alias install='sudo apt-get install'
 alias remove='sudo apt-get remove'
 alias purge='sudo apt-get purge'
 alias purgeconfigs="dpkg --get-selections | grep deinstall | sed 's/deinstall/\lpurge/' | sudo dpkg --set-selections; sudo dpkg -Pa"
+alias isearch='dpkg-query -l'
+alias psearch='apt-cache search'
 
 # system
 alias reboot='sudo reboot'
