@@ -131,6 +131,7 @@ alias cosmos='sh ~/bin/ssh_cosmos.sh'
 alias compass='sh ~/bin/ssh_work.sh'
 alias compass2='sh ~/bin/ssh_work2.sh'
 alias hadesf='sh ~/bin/lftp_box.sh'
+alias what='sh ~/bin/lftp2_box.sh'
 alias nmapscan='nmap -sP 192.168.1.1-255'
 
 # games
