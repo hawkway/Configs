@@ -79,15 +79,27 @@ alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
 alias citbak='sh ~/bin/cit245_bu.sh'
 
+# backup
+alias webbak='sh ~/bin/cpsc217_bu.sh'
+alias databak='sh ~/bin/cpsc323_bu.sh'
+alias orgbak='sh ~/bin/cpsc370_bu.sh'
+alias algbak='sh ~/bin/cpsc374_bu.sh'
+alias srubak='webbak && databak && orgbak && algbak'
+
+
+# housekeeping
 alias movetv='sh ~/bin/move_tv.sh'
 alias movevid='sh ~/bin/move_video.sh'
-
 alias unrarclt='unrarcl && movetv'
 alias unrarclv='unrarcl && movevid'
 
-# CIT
-alias cit='cd input/CIT_245'
-alias netb='cd input/CIT_245/NetBeansProjects'
+# school
+alias cit='cd ~/input/CIT_245'
+alias netb='cd ~/input/CIT_245/NetBeansProjects'
+alias web='cd ~/input/CPSC_217'
+alias data='cd ~/input/CPSC_323'
+alias org='cd ~/input/CPSC_370'
+alias alg='cd ~/input/CPSC_374'
 
 # video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'
