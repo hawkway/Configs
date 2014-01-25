@@ -5,9 +5,11 @@ downgrade
 dropbox
 flexget
 gtk-theme-flatstudio
+libreoffice-gtk-only-ultralite
 mit-scheme
 montecarlo-font
 neuropolitical_font
+openoffice-dark-gtk-fix
 pacaur
 pkgcacheclean
 prboom
@@ -25,6 +27,7 @@ ttf-mplus
 ttf-ms-fonts
 ttf-openlogos
 ttf-stylebats
+ttf-vista-fonts
 unscd
 urxvt-perls-git
 wicked-git

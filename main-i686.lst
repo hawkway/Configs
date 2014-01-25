@@ -81,6 +81,7 @@ gstreamer0.10-good
 gstreamer0.10-ugly
 gtk-engine-murrine
 gtk-vnc
+gvim
 hardinfo
 hddtemp
 hgsvn
@@ -233,7 +234,6 @@ unrar
 unzip
 upx
 vicious
-vim
 virtualbox
 virtualbox-guest-iso
 vlc
