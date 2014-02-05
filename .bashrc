@@ -78,6 +78,7 @@ alias unrars='perl ~/bin/unrar.pl'
 alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
 alias citbak='sh ~/bin/cit245_bu.sh'
+alias gcreate='sh ~/bin/github.sh'
 
 # backup
 alias webbak='sh ~/bin/cpsc217_bu.sh'
