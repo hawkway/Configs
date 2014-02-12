@@ -157,6 +157,8 @@ alias dday='launch-doomsday'
 # apps
 alias e='emacs -nw'
 alias es='sudo emacs -nw'
+alias v='vim'
+alias vs='sudo vim'
 alias matlabn='matlab -nojvm -nodesktop'
 alias scheme='mit-scheme'
 alias edwin='mit-scheme --edit &'
