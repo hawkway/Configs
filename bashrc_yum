@@ -1,0 +1,32 @@
+ # .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+
+# main
+alias home='cd ~'
+alias reload='source ~/.bashrc'
+alias rc='emacs -nw ~/.bashrc'
+
+# applications
+alias e='emacs -nw'
+alias es='sudo emacs -nw'
+alias v='vim'
+alias vs='sudo vim'
+alias _='sudo'
+
+# redhat
+alias install='sudo yum install'
+alias remove='sudo yum remove'
+alias list='yum list'
+alias search='yum search'
+alias info='yum info'
+alias hist='sudo yum history'
+alias check='yum check-update'
+alias cclean='sudo yum clean all'
+alias updates='sudo yum update'
+alias shell='sudo yum shell'
