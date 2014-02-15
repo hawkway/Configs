@@ -32,7 +32,7 @@ alias chown='chown --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
 
-alias matrix='cmatrix -C magenta'
+alias matrix='cmatrix -C cyan'
 
 # useful stuff
 alias ..='cd ..'
@@ -207,4 +207,4 @@ export PERL_MM_OPT="INSTALL_BASE=/home/highway/perl5";
 export PERL5LIB="/home/highway/perl5/lib/perl5/x86_64-linux-thread-multi:/home/highway/perl5/lib/perl5";
 export PATH="~/perl5/bin:$PATH";
 export PATH="~/bin:$PATH";
-export EDITOR=nano
+export EDITOR=emacs
