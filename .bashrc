@@ -53,12 +53,6 @@ alias irssi='screen irssi'
 #alias finch='urxvt -e finch &'
 alias mirror='sudo reflector -c "Canada United States" -f 6 > mirrorlist'
 #
-#alias tor='~/.tor-browser_en-US/start-tor-browser'
-# control hardware
-#alias cdo='eject /dev/cdrecorder'
-#alias cdc='eject -t /dev/cdrecorder'
-#alias dvdo='eject /dev/dvd'
-#alias dvdc='eject -t /dev/dvd'
 # modified commands
 alias home='cd ~'
 
@@ -139,6 +133,7 @@ alias base='/usr/bin/libreoffice --base'
 # ssh
 alias raspi='sh ~/bin/ssh_pi.sh'
 alias wobblez='sh ~/bin/ssh_wbl.sh'
+alias wobblez2='sh ~/bin/ssh_wbl2.sh'
 alias hades='sh ~/bin/ssh_hades.sh'
 alias cosmos='sh ~/bin/ssh_cosmos.sh'
 alias compass='sh ~/bin/ssh_work.sh'
