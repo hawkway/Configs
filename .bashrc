@@ -80,7 +80,7 @@ alias databak='sh ~/bin/cpsc323_bu.sh'
 alias orgbak='sh ~/bin/cpsc370_bu.sh'
 alias algbak='sh ~/bin/cpsc374_bu.sh'
 alias srubak='webbak && databak && orgbak && algbak'
-
+alias gameboy='sh ~/bin/gameboy_bu.sh'
 
 # housekeeping
 alias movetv='sh ~/bin/move_tv.sh'
