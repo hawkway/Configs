@@ -4,7 +4,6 @@ alsa-firmware
 alsa-oss
 alsa-plugins
 alsa-utils
-apache
 arch-install-scripts
 archey3
 archlinux-wallpaper
@@ -181,7 +180,6 @@ p7zip
 parcellite
 patch
 php
-php-apache
 php-apcu
 php-gd
 php-geoip
