@@ -172,7 +172,7 @@ alias ss='sudo systemctl'
 alias update='sudo pacman -Syu'
 alias syua='pacaur -Syua'         # update aur packages
 alias devel='pacaur -Syua --devel' # update devel packages
-alias updates='sudo pacman -Syu && pacaur -Syua && cclean && gh -b'
+alias updates='sudo pacman -Syu && pacaur -Syua && cclean && geeh -b'
 
 # pacman
 alias a='pacaur -S'
