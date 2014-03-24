@@ -180,17 +180,6 @@ oxygen-gtk3
 p7zip
 parcellite
 patch
-php
-php-apcu
-php-gd
-php-geoip
-php-intl
-php-mcrypt
-php-memcache
-php-memcached
-php-pear
-php-sqlite
-phpmyadmin
 pidgin
 pinta
 pkg-config
