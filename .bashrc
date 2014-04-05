@@ -64,6 +64,7 @@ alias community='vlc -f ~/community.xspf &'
 alias troyabed='env DISPLAY=:0.0 screen vlc -f ~/community.xspf &'
 alias killvlc='env DISPLAY=:0.0 screen sh ~/bin/killvlc.sh'
 alias vlckill='sh ~/bin/killvlc.sh'
+alias vlckill2='sh ~/bin/killmplayer.sh'
 alias monoff='env DISPLAY=:0.0 screen sh ~/bin/monitor_off.sh'
 alias monkoff='env DISPLAY=:0.0 screen sh ~/bin/killvlc_now.sh'
 
