@@ -192,6 +192,7 @@ pystatgrab
 python
 python2-beautifulsoup4
 python2-pip
+python2-pygeoip
 python2-pyinotify
 rsync
 rxvt-unicode
