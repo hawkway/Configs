@@ -63,6 +63,7 @@ flex
 fontconfig
 fortune-mod
 fuseiso
+gcc-fortran
 gcc-libs-multilib
 gcc-multilib
 gcolor2
@@ -172,6 +173,7 @@ ntp
 nvidia
 nvidia-libgl
 opencl-nvidia
+openmpi
 openshot
 openssh
 openttd-opengfx
