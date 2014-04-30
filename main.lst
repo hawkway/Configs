@@ -34,6 +34,7 @@ cmatrix
 conky
 cowsay
 cpanminus
+cronie
 curlftpfs
 dash
 ddd
@@ -213,7 +214,6 @@ syslinux
 tangerine-icon-theme
 tcpdump
 terminology
-terminus-font
 thunderbird
 tig
 tls
