@@ -65,8 +65,6 @@ fontconfig
 fortune-mod
 fuseiso
 gcc-fortran
-gcc-libs-multilib
-gcc-multilib
 gcolor2
 gdb
 gedit
