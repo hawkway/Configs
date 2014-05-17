@@ -113,17 +113,22 @@ alias home="cd ~"
 # scripts
 alias wwwbak='sh ~/bin/wwwbackup.sh'
 alias tc='sh ~/bin/tc.sh'
-alias cit="cd ~/Dropbox/CIT_245"
 
 # programs
 alias irssi='screen irssi'
 alias noip2='/usr/local/bin/noip2'
-alias williep2p='willie -c ~/.willie/p2p.cfg &'
-alias willieskt='willie -c ~/.willie/skt.cfg &'
+
+# locations
+alias etc='cd /etc'
+alias log='cd /var/log'
 
 # commands
 alias e='emacs -nw'
 alias es='sudo emacs -nw'
+alias v='vi'
+alias vs='sudo vi'
+alias n='nano'
+alias ns='sudo nano'
 alias del='rm -rf'
 alias rc='emacs -nw ~/.bashrc'
 alias visudo='export EDITOR=nano && sudo visudo'
