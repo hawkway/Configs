@@ -17,7 +17,6 @@ pacaur
 pkgcacheclean
 prboom
 python2-certifi
-python2-jsonschema
 python2-pynzb
 python2-pyrss2gen
 python2-sqlalchemy-0.7.9
