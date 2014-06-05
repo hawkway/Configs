@@ -168,7 +168,11 @@ alias rc='e ~/.bashrc'
 
 # system
 alias _='sudo'
-alias ss='sudo systemctl'
+alias ctl='sudo systemctl'
+alias ctlstat='sudo systemctl status'
+
+alias ftpstart='sudo systemctl start vsftpd.service'
+alias ftpstop='sudo systemctl stop vsftpd.service'
 
 # updates
 alias update='sudo pacman -Syu'
