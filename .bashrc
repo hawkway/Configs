@@ -160,7 +160,7 @@ alias scheme='mit-scheme'
 alias edwin='mit-scheme --edit &'
 alias g11='g++ -std=c++11'
 alias gpp='g++'
-alias flex='flexget --disable-advancement -v'
+alias flex='flexget execute --disable-tracking'
 
 # other
 alias mpvbox='sudo modprobe vboxdrv'
