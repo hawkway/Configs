@@ -5,12 +5,9 @@ downgrade
 flexget
 geeh
 gtk-theme-flatstudio
-libiodbc
 libreoffice-gtk-only-ultralite
 mit-scheme
 montecarlo-font
-nepomuk-core
-nepomuk-widgets
 neuropolitical_font
 openoffice-dark-gtk-fix
 pacaur
@@ -24,8 +21,6 @@ python2-pyrss2gen
 python2-rpyc
 python2-tmdb3
 python2-tvrage
-shared-desktop-ontologies
-soprano
 speedcrunch
 sublime-text
 ttf-envy-code-r
@@ -37,7 +32,6 @@ ttf-vista-fonts
 unscd
 urxvt-perls-git
 virtualbox-extension-pack
-virtuoso-base
 wicked-git
 willie
 xcursor-arch-simple
