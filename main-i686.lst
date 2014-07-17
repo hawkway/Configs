@@ -191,6 +191,7 @@ putty
 pystatgrab
 python
 python2-beautifulsoup4
+python2-certifi
 python2-pip
 python2-pygeoip
 python2-pyinotify
