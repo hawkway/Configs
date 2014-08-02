@@ -74,6 +74,7 @@ alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
 alias citbak='sh ~/bin/cit245_bu.sh'
 alias gcreate='sh ~/bin/github.sh'
+alias back4='sudo sh ~/bin/backup4.sh'
 
 # backup
 alias webbak='sh ~/bin/cpsc217_bu.sh'
