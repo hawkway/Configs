@@ -93,10 +93,10 @@ alias unrarclv='unrarcl && movevid'
 # school
 alias cit='cd ~/input/CIT_245'
 alias netb='cd ~/input/CIT_245/NetBeansProjects'
-alias web='cd ~/input/CPSC_217'
-alias data='cd ~/input/CPSC_323'
-alias org='cd ~/input/CPSC_370'
-alias alg='cd ~/input/CPSC_374'
+alias net='cd ~/input/CPSC_423'
+alias lang='cd ~/input/CPSC_376'
+alias arch='cd ~/input/CPSC_474'
+alias opsys='cd ~/input/CPSC_464'
 
 # video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'
