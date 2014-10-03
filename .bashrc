@@ -147,6 +147,7 @@ alias hadesf='sh ~/bin/lftp_box.sh'
 alias what='sh ~/bin/lftp2_box.sh'
 alias nmapscan='nmap -sP 192.168.1.1-255'
 alias ftpcosmos='sh ~/bin/sftp_cosmos.sh'
+alias ftpaire='sh ~/bin/sftp_airedale.sh'
 
 # games
 alias doom1='prboom -iwad doom1.wad'
