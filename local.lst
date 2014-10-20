@@ -13,12 +13,10 @@ openoffice-dark-gtk-fix
 pacaur
 pkgcacheclean
 prboom
-python2-argparse
 python2-babelfish
 python2-dateutil1
 python2-guessit
 python2-path
-python2-paver
 python2-plumbum
 python2-pynzb
 python2-pyrss2gen
