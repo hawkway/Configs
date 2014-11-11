@@ -194,6 +194,7 @@ alias prns='sudo pacman -Rns'
 alias pqs='pacman -Qs'
 alias pqdt='pacman -Qdt'
 alias rmorphan='sudo pacman -Rns $(pacman -Qdtq)'
+alias ctl='sudo systemctl'
 
 # power
 alias shutdown="systemctl poweroff"
