@@ -13,6 +13,7 @@ openoffice-dark-gtk-fix
 pacaur
 pkgcacheclean
 prboom
+python2-apscheduler
 python2-babelfish
 python2-dateutil1
 python2-guessit
@@ -24,6 +25,7 @@ python2-pyrss2gen
 python2-rpyc
 python2-tmdb3
 python2-tvrage
+python2-tzlocal
 speedcrunch
 sublime-text
 ttf-envy-code-r
