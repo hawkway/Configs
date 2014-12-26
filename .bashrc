@@ -77,6 +77,9 @@ alias citbak='sh ~/bin/cit245_bu.sh'
 alias gcreate='sh ~/bin/github.sh'
 alias back4='sudo sh ~/bin/backup4.sh'
 
+# testing
+alias parse='sh ~/bin/parse_wrapper.sh'
+
 # backup
 alias webbak='sh ~/bin/cpsc217_bu.sh'
 alias databak='sh ~/bin/cpsc323_bu.sh'
