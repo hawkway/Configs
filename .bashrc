@@ -76,6 +76,7 @@ alias unrarx='sh ~/bin/unrarx_wrapper.sh'
 alias citbak='sh ~/bin/cit245_bu.sh'
 alias gcreate='sh ~/bin/github.sh'
 alias back4='sudo sh ~/bin/backup4.sh'
+alias back5='sudo sh ~/bin/backup5.sh'
 
 # testing
 alias parse='sh ~/bin/parse_wrapper.sh'
