@@ -57,6 +57,7 @@ alias mirror='sudo reflector -c "Canada United States" -f 6 > mirrorlist'
 alias home='cd ~'
 
 alias ssh='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa) && ssh'
+#alias ssh='sh ~/bin/gpgIsFucked.sh'
 
 # vlc
 alias community='vlc -f ~/community.xspf &'
