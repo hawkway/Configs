@@ -1,10 +1,8 @@
 [ ! "$UID" = "0" ] && archey3 -c blue
 [  "$UID" = "0" ] && archey3 -c red
-#command cowsay $(fortune)
-#PS1="\[\e[01;31m\]┌─[\[\e[01;35m\u\e[01;31m\]]──[\[\e[00;37m\]${HOSTNAME%%.*}\[\e[01;32m\]]:\w$\[\e[01;31m\]\n\[\e[01;31m\]└──\[\e[01;36m\]>>\[\e[0m\]"
+
 PS1="\n${DGRAY}╭─[${LBLUE}\w${DGRAY}]\n${DGRAY}╰─[${WHITE}\T${DGRAY}]${DGRAY}>${BLUE}>${LBLUE}> ${RESET_COLOR}"
-#complete -cf sudo
-#complete -cf man
+
 function ii()   # Get current host related info.
 {
   echo -e "\nYou are logged on ${RED}$HOST"
@@ -19,6 +17,7 @@ function ii()   # Get current host related info.
   echo -e "\n${RED}Open connections :$NC "; netstat -pan --inet;
   echo
 }
+
 alias ls='ls --color=auto'
 alias ping='ping -c 3'
 alias pong='tsocks ping -c 5'
@@ -32,7 +31,15 @@ alias chown='chown --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
 
-alias matrix='cmatrix -C cyan'
+alias matrix='cmatrix -C green'
+alias m='cmatrix -C green'
+alias rm='cmatrix -C red'
+alias gm='cmatrix -C green'
+alias ym='cmatrix -C yellow'
+alias bm='cmatrix -C blue'
+alias mm='cmatrix -C magenta'
+alias cm='cmatrix -C cyan'
+alias wm='cmatrix -C white'
 
 # useful stuff
 alias ..='cd ..'
@@ -47,10 +54,8 @@ alias reload='clear && source ~/.bashrc'
 
 alias cclean='sudo pkgcacheclean 1 -v'
 alias git='hub'
-#alias irssi='urxvt -e irssi &'
 alias weechat='screen weechat-curses'
 alias irssi='screen irssi'
-#alias finch='urxvt -e finch &'
 alias mirror='sudo reflector -c "Canada United States" -f 6 > mirrorlist'
 #
 # modified commands
@@ -131,13 +136,6 @@ alias stopsshd='sudo systemctl stop sshd.service'
 alias statussshd='systemctl status sshd.service'
 alias restartsshd='sudo systemctl restart sshd.service'
 
-# office
-alias writer='/usr/bin/libreoffice --writer'
-alias calc='/usr/bin/libreoffice --calc'
-alias impress='/usr/bin/libreoffice --impress'
-alias math='/usr/bin/libreoffice --math'
-alias base='/usr/bin/libreoffice --base'
-
 # ssh
 alias raspi='sh ~/bin/ssh_pi.sh'
 alias wobblez='sh ~/bin/ssh_wbl.sh'
@@ -166,9 +164,6 @@ alias es='sudo emacs -nw'
 alias v='vim'
 alias vs='sudo vim'
 alias matlabn='matlab -nojvm -nodesktop'
-alias scheme='mit-scheme'
-alias edwin='mit-scheme --edit &'
-alias g11='g++ -std=c++11'
 alias gpp='g++'
 alias flex='flexget execute --disable-tracking'
 
@@ -177,9 +172,8 @@ alias mpvbox='sudo modprobe vboxdrv'
 alias rc='e ~/.bashrc'
 
 # system
-alias _='sudo'
+alias s='sudo'
 alias ctl='sudo systemctl'
-alias ctlstat='sudo systemctl status'
 
 alias ftpstart='sudo systemctl start vsftpd.service'
 alias ftpstop='sudo systemctl stop vsftpd.service'
@@ -200,7 +194,6 @@ alias prns='sudo pacman -Rns'
 alias pqs='pacman -Qs'
 alias pqdt='pacman -Qdt'
 alias rmorphan='sudo pacman -Rns $(pacman -Qdtq)'
-alias ctl='sudo systemctl'
 
 # power
 alias shutdown="systemctl poweroff"
