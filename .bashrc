@@ -85,7 +85,8 @@ alias back5='sudo sh ~/bin/backup5.sh'
 
 # testing
 alias parse='sh ~/bin/parse_wrapper.sh'
-alias fix='python2 ~/bin/fixNames.py'
+alias parseme='perl ~/bin/parseList.pl'
+alias fix='perl ~/bin/fixNames.pl'
 
 # backup
 alias webbak='sh ~/bin/cpsc217_bu.sh'
