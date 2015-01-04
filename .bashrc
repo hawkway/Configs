@@ -33,7 +33,6 @@ alias chgrp='chgrp --preserve-root'
 
 alias matrix='cmatrix -C green'
 alias m='cmatrix -C green'
-alias rm='cmatrix -C red'
 alias gm='cmatrix -C green'
 alias ym='cmatrix -C yellow'
 alias bm='cmatrix -C blue'
@@ -87,6 +86,7 @@ alias back5='sudo sh ~/bin/backup5.sh'
 alias parse='sh ~/bin/parse_wrapper.sh'
 alias parseme='perl ~/bin/parseList.pl'
 alias fix='perl ~/bin/fixNames.pl'
+alias names='perl ~/bin/getNames.pl'
 
 # backup
 alias webbak='sh ~/bin/cpsc217_bu.sh'
