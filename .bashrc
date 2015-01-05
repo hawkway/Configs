@@ -87,6 +87,7 @@ alias parse='sh ~/bin/parse_wrapper.sh'
 alias parseme='perl ~/bin/parseList.pl'
 alias fix='perl ~/bin/fixNames.pl'
 alias names='perl ~/bin/getNames.pl'
+alias ptest='perl ~/bin/perlTest.pl'
 
 # backup
 alias webbak='sh ~/bin/cpsc217_bu.sh'
