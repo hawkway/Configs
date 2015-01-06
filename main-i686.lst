@@ -192,6 +192,7 @@ putty
 pv
 pystatgrab
 python
+python2-beautifulsoup3
 python2-beautifulsoup4
 python2-certifi
 python2-pip

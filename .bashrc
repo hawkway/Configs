@@ -73,6 +73,7 @@ alias monoff='env DISPLAY=:0.0 screen sh ~/bin/monitor_off.sh'
 alias monkoff='env DISPLAY=:0.0 screen sh ~/bin/killvlc_now.sh'
 
 # scripts
+alias parse='sh ~/bin/parse_wrapper.sh'
 alias unrars='perl ~/bin/unrar.pl'
 alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
@@ -83,7 +84,6 @@ alias back4='sudo sh ~/bin/backup4.sh'
 alias back5='sudo sh ~/bin/backup5.sh'
 
 # testing
-alias parse='sh ~/bin/parse_wrapper.sh'
 alias parseme='perl ~/bin/parseList.pl'
 alias fix='perl ~/bin/fixNames.pl'
 alias names='perl ~/bin/getNames.pl'
