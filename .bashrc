@@ -88,6 +88,7 @@ alias parseme='perl ~/bin/parseList.pl'
 alias fix='perl ~/bin/fixNames.pl'
 alias names='perl ~/bin/getNames.pl'
 alias ptest='perl ~/bin/perlTest.pl'
+alias pytest='python2 ~/bin/parseList2.py'
 
 # backup
 alias webbak='sh ~/bin/cpsc217_bu.sh'
