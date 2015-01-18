@@ -74,6 +74,7 @@ alias monkoff='env DISPLAY=:0.0 screen sh ~/bin/killvlc_now.sh'
 
 # scripts
 alias parse='sh ~/bin/parse_wrapper.sh'
+alias check='sh ~/bin/wrapper_createDir.sh'
 alias unrars='perl ~/bin/unrar.pl'
 alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
@@ -89,7 +90,7 @@ alias fix='perl ~/bin/fixNames.pl'
 alias names='perl ~/bin/getNames.pl'
 alias ptest='perl ~/bin/perlTest.pl'
 alias pytest='python2 ~/bin/parseList2.py'
-alias check='perl ~/bin/checkDir.pl'
+alias checkme='perl ~/bin/checkDir.pl'
 alias nameTest='sh ~/bin/regexRename.sh'
 
 # backup
