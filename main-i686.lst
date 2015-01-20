@@ -171,6 +171,7 @@ ntfs-3g
 ntp
 nvidia
 nvidia-libgl
+nvidia-utils
 opencl-nvidia
 openmpi
 openshot
