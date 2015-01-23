@@ -118,8 +118,8 @@ gtk2
 libldap
 libtxc_dxtn
 libxft
+mesa-libgl
 mpg123
-nvidia-340xx-libgl
 openal
 opencl-nvidia
 libisoburn

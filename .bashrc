@@ -119,6 +119,10 @@ alias net='cd ~/input/CPSC_423'
 alias lang='cd ~/input/CPSC_376'
 alias arch='cd ~/input/CPSC_474'
 alias opsys='cd ~/input/CPSC_464'
+alias soft='cd ~/input/CPSC_488'
+alias algs='cd ~/input/CPSC_478'
+alias foren='cd ~/input/CPSC_333'
+alias theory='cd ~/input/CPSC_378'
 
 # video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'
