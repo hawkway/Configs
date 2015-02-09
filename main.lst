@@ -126,13 +126,7 @@ libisoburn
 libmodplug
 libmythes
 libotr
-libreoffice-still-base
-libreoffice-still-calc
-libreoffice-still-common
-libreoffice-still-en-US
-libreoffice-still-impress
-libreoffice-still-math
-libreoffice-still-writer
+libreoffice-still
 libstatgrab
 libtool
 libunique
