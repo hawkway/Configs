@@ -227,4 +227,5 @@ export PERL_MM_OPT="INSTALL_BASE=/home/highway/perl5";
 export PERL5LIB="/home/highway/perl5/lib/perl5/x86_64-linux-thread-multi:/home/highway/perl5/lib/perl5";
 export PATH="~/perl5/bin:$PATH";
 export PATH="~/bin:$PATH";
+export PATH=${PATH}:/home/highway/android-sdk-linux/platform-tools:/home/highway/android-sdk-linux/tools;
 export EDITOR=emacs
