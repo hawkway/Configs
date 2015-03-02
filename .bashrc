@@ -81,6 +81,7 @@ alias unrarcl='unrars && cleandir'
 alias unrarx='sh ~/bin/unrarx_wrapper.sh'
 alias citbak='sh ~/bin/cit245_bu.sh'
 alias gcreate='sh ~/bin/github.sh'
+alias gitup='sh ~/bin/githubPush.sh'
 
 # mount
 alias tc1='sudo sh ~/bin/tc1.sh'
