@@ -64,8 +64,8 @@ alias ssh='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa
 #alias ssh='sh ~/bin/gpgIsFucked.sh'
 
 # vlc
-alias community='vlc -f ~/community.xspf &'
-alias troyabed='env DISPLAY=:0.0 screen vlc -f ~/community.xspf &'
+alias comm='vlc -f ~/community.xspf &'
+alias remotecomm='env DISPLAY=:0.0 screen vlc -f ~/community.xspf &'
 alias killvlc='env DISPLAY=:0.0 screen sh ~/bin/killvlc.sh'
 alias vlckill='sh ~/bin/killvlc.sh'
 alias vlckill2='sh ~/bin/killmplayer.sh'
