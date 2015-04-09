@@ -176,6 +176,7 @@ alias doom2='prboom -iwad doom2.wad'
 alias dday='launch-doomsday'
 
 # apps
+alias w='wget'
 alias e='emacs -nw'
 alias es='sudo emacs -nw'
 alias v='vim'
