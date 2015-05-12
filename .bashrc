@@ -153,6 +153,7 @@ alias statussshd='systemctl status sshd.service'
 alias restartsshd='sudo systemctl restart sshd.service'
 
 # ssh
+alias localpi='~/bin/ssh_localRaspberry.sh'
 alias raspi='sh ~/bin/ssh_raspberry.sh'
 alias raspi2='sh ~/bin/ssh_raspberry2.sh'
 alias wobblez='sh ~/bin/ssh_wbl.sh'
