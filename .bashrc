@@ -56,7 +56,8 @@ alias git='hub'
 alias weechat='screen weechat-curses'
 alias irssi='screen irssi'
 alias mirror='sudo reflector -c "Canada United States" -f 6 > mirrorlist'
-#
+alias graphics='sudo modprobe nouveau'
+
 # modified commands
 alias home='cd ~'
 
