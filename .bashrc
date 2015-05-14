@@ -56,13 +56,11 @@ alias git='hub'
 alias weechat='screen weechat-curses'
 alias irssi='screen irssi'
 alias mirror='sudo reflector -c "Canada United States" -f 6 > mirrorlist'
-alias graphics='sudo modprobe nouveau'
 
 # modified commands
 alias home='cd ~'
 
 alias ssh='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa) && ssh'
-#alias ssh='sh ~/bin/gpgIsFucked.sh'
 
 # vlc
 alias comm='vlc -f ~/community.xspf &'
@@ -76,13 +74,12 @@ alias monkoff='env DISPLAY=:0.0 screen sh ~/bin/killvlc_now.sh'
 # scripts
 alias parse='sh ~/bin/parse_wrapper.sh'
 alias check='sh ~/bin/wrapper_createDir.sh'
+alias process='parse && check'
 alias unrars='perl ~/bin/unrar.pl'
 alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
 alias unrarx='sh ~/bin/unrarx_wrapper.sh'
-alias citbak='sh ~/bin/cit245_bu.sh'
 alias gcreate='sh ~/bin/github.sh'
-alias gitup='sh ~/bin/githubPush.sh'
 
 # mount
 alias tc1='sudo sh ~/bin/tc1.sh'
@@ -92,20 +89,9 @@ alias back4='sudo sh ~/bin/backup4.sh'
 alias back5='sudo sh ~/bin/backup5.sh'
 
 # testing
-alias parseme='perl ~/bin/parseList.pl'
-alias fix='perl ~/bin/fixNames.pl'
-alias names='perl ~/bin/getNames.pl'
-alias ptest='perl ~/bin/perlTest.pl'
-alias pytest='python2 ~/bin/parseList2.py'
-alias checkme='perl ~/bin/checkDir.pl'
-alias nameTest='sh ~/bin/regexRename.sh'
+
 
 # backup
-alias webbak='sh ~/bin/cpsc217_bu.sh'
-alias databak='sh ~/bin/cpsc323_bu.sh'
-alias orgbak='sh ~/bin/cpsc370_bu.sh'
-alias algbak='sh ~/bin/cpsc374_bu.sh'
-alias srubak='webbak && databak && orgbak && algbak'
 alias gameboy='sh ~/bin/gameboy_bu.sh'
 
 # housekeeping
@@ -113,18 +99,6 @@ alias movetv='sh ~/bin/move_tv.sh'
 alias movevid='sh ~/bin/move_video.sh'
 alias unrarclt='unrarcl && movetv'
 alias unrarclv='unrarcl && movevid'
-
-# school
-alias cit='cd ~/input/CIT_245'
-alias netb='cd ~/input/CIT_245/NetBeansProjects'
-alias net='cd ~/input/CPSC_423'
-alias lang='cd ~/input/CPSC_376'
-alias arch='cd ~/input/CPSC_474'
-alias opsys='cd ~/input/CPSC_464'
-alias soft='cd ~/input/CPSC_488'
-alias algs='cd ~/input/CPSC_478'
-alias foren='cd ~/input/CPSC_333'
-alias theory='cd ~/input/CPSC_378'
 
 # video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'
@@ -188,6 +162,7 @@ alias gpp='g++'
 alias flex='flexget execute --disable-tracking'
 
 # other
+alias graphics='sudo modprobe nouveau'
 alias mpvbox='sudo modprobe vboxdrv'
 alias rc='e ~/.bashrc'
 
