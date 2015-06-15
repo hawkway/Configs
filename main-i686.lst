@@ -118,8 +118,8 @@ gtk2
 libldap
 libtxc_dxtn
 libxft
-mesa-libgl
 mpg123
+nvidia-libgl
 openal
 opencl-nvidia
 libisoburn
@@ -165,7 +165,8 @@ nodejs
 npm
 ntfs-3g
 ntp
-nvidia-340xx
+nvidia
+nvidia-libgl
 opencl-nvidia
 openmpi
 openshot
@@ -262,6 +263,7 @@ xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-type1
 xorg-server
+xorg-server-devel
 xorg-server-utils
 xorg-server-xephyr
 xorg-utils
