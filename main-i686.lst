@@ -19,6 +19,7 @@ awesome
 baobab
 bash-completion
 bc
+bind-tools
 binutils
 bison
 bitlbee
@@ -44,7 +45,6 @@ devtools
 dialog
 dmenu
 dmidecode
-dnsutils
 dosfstools
 driconf
 dvd+rw-tools
