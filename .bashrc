@@ -51,7 +51,7 @@ alias grep='grep --color=auto'
 
 alias reload='clear && source ~/.bashrc'
 
-alias cclean='sudo pkgcacheclean 1 -v'
+alias cclean='sudo pkgcacheclean 2 -v'
 alias git='hub'
 alias weechat='screen weechat-curses'
 alias irssi='screen irssi'
