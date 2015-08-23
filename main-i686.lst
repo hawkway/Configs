@@ -7,6 +7,7 @@ alsa-utils
 arch-install-scripts
 archey3
 archlinux-wallpaper
+ark
 artwiz-fonts
 asciidoc
 atop
@@ -45,6 +46,7 @@ devtools
 dialog
 dmenu
 dmidecode
+dolphin
 dosfstools
 driconf
 dvd+rw-tools
@@ -103,14 +105,12 @@ john
 jshon
 k3b
 kde-base-artwork
-kdebase-dolphin
 kdebase-plasma
 kdebase-workspace
 kdegames-kmahjongg
 kdegraphics-ksnapshot
 kdegraphics-okular
 kdemultimedia-ffmpegthumbs
-kdeutils-ark
 keepassx
 keychain
 lftp
