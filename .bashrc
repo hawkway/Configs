@@ -91,6 +91,8 @@ alias back5='sudo sh ~/bin/backup5.sh'
 
 # testing
 
+# dev
+alias g11='g++ -std=c++11'
 
 # backup
 alias gameboy='sh ~/bin/gameboy_bu.sh'
@@ -134,18 +136,11 @@ alias raspi='sh ~/bin/ssh_raspberry.sh'
 alias raspi2='sh ~/bin/ssh_raspberry2.sh'
 alias wobblez='sh ~/bin/ssh_wbl.sh'
 alias wobblez2='sh ~/bin/ssh_wbl2.sh'
-alias hades='sh ~/bin/ssh_hades.sh'
-alias airedale='sh ~/bin/ssh_airedale.sh'
-alias airedale2='sh ~/bin/ssh_airedale2.sh'
 alias compass='sh ~/bin/ssh_work.sh'
 alias compass2='sh ~/bin/ssh_work2.sh'
 alias granite='sh ~/bin/ssh_granite.sh'
-alias ftpg='sh ~/bin/sftp_school.sh'
-alias hadesf='sh ~/bin/lftp_box.sh'
 alias what='sh ~/bin/lftp2_box.sh'
 alias nmapscan='nmap -sP 192.168.1.1-255'
-alias ftpcosmos='sh ~/bin/sftp_cosmos.sh'
-alias ftpaire='sh ~/bin/sftp_airedale.sh'
 
 # games
 alias doom1='prboom -iwad doom1.wad'
