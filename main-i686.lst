@@ -105,9 +105,6 @@ jdk8-openjdk
 john
 jshon
 k3b
-kde-base-artwork
-kdebase-plasma
-kdebase-workspace
 kdegames-kmahjongg
 kdegraphics-ksnapshot
 kdegraphics-okular
@@ -175,6 +172,8 @@ openshot
 openssh
 openttd-opengfx
 openttd-opensfx
+oxygen
+oxygen-cursors
 p7zip
 parcellite
 patch
@@ -182,6 +181,7 @@ pidgin
 pinta
 pkg-config
 pkgfile
+plasma-desktop
 polipo
 ppp
 privoxy

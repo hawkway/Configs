@@ -6,6 +6,7 @@ gedit2
 geeh
 gtk-engine-unico
 gtk-theme-flatstudio
+kde-base-artwork
 libpng12
 montecarlo-font
 neuropolitical_font
@@ -13,6 +14,7 @@ openoffice-dark-gtk-fix
 oxygen-gtk3
 pacaur
 pkgcacheclean
+polkit-kde
 prboom
 python2-apscheduler
 python2-dateutil1
