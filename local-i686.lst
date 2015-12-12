@@ -1,7 +1,6 @@
 chromium-pepper-flash-stable
 cower
 downgrade
-fmodex
 gedit2
 geeh
 gtk-engine-unico
@@ -14,7 +13,6 @@ openoffice-dark-gtk-fix
 oxygen-gtk3
 pacaur
 pkgcacheclean
-polkit-kde
 prboom
 python2-apscheduler
 python2-dateutil1
