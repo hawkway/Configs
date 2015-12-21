@@ -61,6 +61,7 @@ epdfview
 expac
 fakeroot
 feh
+ffmpegthumbs
 filezilla
 firefox
 flashplugin
@@ -106,9 +107,7 @@ john
 jshon
 k3b
 kdegames-kmahjongg
-kdegraphics-ksnapshot
 kdegraphics-okular
-kdemultimedia-ffmpegthumbs
 keepassx
 keychain
 lftp
@@ -205,6 +204,7 @@ scrot
 shotwell
 smplayer
 spacefm
+spectacle
 speedcrunch
 squashfs-tools
 sshfs
