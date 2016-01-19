@@ -86,6 +86,7 @@ alias letsgo='tc1 && tc2 && tc3 && back4 open && back5 open'
 alias tc1='sudo sh ~/bin/tc1.sh'
 alias tc2='sudo sh ~/bin/tc2.sh'
 alias tc3='sudo sh ~/bin/tc3.sh'
+alias back2='sudo sh ~/bin/backup2.sh'
 alias back4='sudo sh ~/bin/backup4.sh'
 alias back5='sudo sh ~/bin/backup5.sh'
 
