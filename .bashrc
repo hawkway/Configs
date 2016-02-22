@@ -78,7 +78,6 @@ alias process='parse && check'
 alias unrars='perl ~/bin/unrar.pl'
 alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
-alias unrarx='sh ~/bin/unrarx_wrapper.sh'
 alias gcreate='sh ~/bin/github.sh'
 
 # mount
@@ -107,23 +106,6 @@ alias unrarclv='unrarcl && movevid'
 # video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'
 alias convert2iso='mkisofs -dvd-video -o AAAA.iso /home/highway/ZZZZ/'
-
-# httpd
-alias starthttpd='sudo systemctl start httpd'
-alias stophttpd='sudo systemctl stop httpd'
-alias resethttpd='sudo systemctl reset httpd'
-alias statushttpd='systemctl status httpd'
-
-# LAMP
-alias startlamp='sudo lamp start'
-alias stoplamp='sudo lamp stop'
-alias restartlamp='sudo lamp restart'
-
-# MySQL
-alias startmysql='sudo systemctl start mysqld'
-alias stopmysql='sudo systemctl stop mysqld'
-alias resetmysql='sudo systemctl reset mysqld'
-alias statusmysql='sudo systemctl mysqld'
 
 # sshd
 alias startsshd='sudo systemctl start sshd.service'
