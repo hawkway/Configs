@@ -1,4 +1,3 @@
-chromium-pepper-flash-stable
 cower
 downgrade
 gedit2
@@ -9,7 +8,6 @@ kde-base-artwork
 libpng12
 montecarlo-font
 neuropolitical_font
-openoffice-dark-gtk-fix
 oxygen-gtk3
 pacaur
 pkgcacheclean
@@ -33,7 +31,6 @@ unscd
 urxvt-perls-git
 virtualbox-extension-pack
 wicked-git
-willie
 xcursor-arch-simple
 xcursor-dmz
 xcursor-shere-khan-x

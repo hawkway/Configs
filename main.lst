@@ -4,6 +4,7 @@ alsa-firmware
 alsa-oss
 alsa-plugins
 alsa-utils
+arandr
 arch-install-scripts
 archey3
 archlinux-wallpaper
@@ -99,6 +100,7 @@ hwinfo
 hyphen-en
 icedtea-web
 intel-ucode
+intellij-idea-community-edition
 iotop
 irssi
 jdk7-openjdk
@@ -131,6 +133,7 @@ libunrar
 libxft
 linuxdcpp
 lm_sensors
+lshw
 lua51-filesystem
 lua51-socket
 luakit
@@ -153,7 +156,6 @@ multitail
 mumble
 mythes-en
 namcap
-netbeans
 nethogs
 network-manager-applet
 networkmanager
@@ -245,6 +247,7 @@ weechat
 wget
 whois
 wine
+winetricks
 wireshark-cli
 wireshark-gtk
 wmctrl
