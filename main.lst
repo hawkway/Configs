@@ -183,7 +183,6 @@ pkgfile
 plasma-desktop
 polipo
 ppp
-privoxy
 putty
 pv
 pystatgrab
@@ -249,8 +248,6 @@ wget
 whois
 wine
 winetricks
-wireshark-cli
-wireshark-gtk
 wmctrl
 wmname
 wpa_supplicant
