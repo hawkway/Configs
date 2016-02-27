@@ -131,7 +131,7 @@ alias doom2='prboom -iwad doom2.wad'
 alias dday='launch-doomsday'
 
 # apps
-alias w='wget'
+alias w='wego'
 alias e='emacs -nw'
 alias es='sudo emacs -nw'
 alias v='vim'
@@ -139,6 +139,7 @@ alias vs='sudo vim'
 alias matlabn='matlab -nojvm -nodesktop'
 alias gpp='g++'
 alias flex='flexget execute --disable-tracking'
+
 
 # other
 alias graphics='sudo modprobe nouveau'
