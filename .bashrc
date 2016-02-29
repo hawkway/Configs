@@ -72,7 +72,7 @@ alias monoff='env DISPLAY=:0.0 screen sh ~/bin/monitor_off.sh'
 alias monkoff='env DISPLAY=:0.0 screen sh ~/bin/killvlc_now.sh'
 
 # scripts
-alias parse='sh ~/bin/parse_wrapper.sh'
+alias parse='sh ~/bin/FileParser.sh'
 alias check='sh ~/bin/wrapper_createDir.sh'
 alias process='parse && check'
 alias unrars='perl ~/bin/unrar.pl'
