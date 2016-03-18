@@ -7,6 +7,7 @@ gtk-engine-unico
 gtk-theme-flatstudio
 kde-base-artwork
 libpng12
+libpng12
 montecarlo-font
 neuropolitical_font
 oxygen-gtk3
@@ -39,6 +40,7 @@ python2-tmdb3
 python2-tzlocal
 rpl
 sublime-text
+teamviewer
 ttf-envy-code-r
 ttf-mplus
 ttf-ms-fonts

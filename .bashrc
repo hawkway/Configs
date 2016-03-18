@@ -140,6 +140,9 @@ alias matlabn='matlab -nojvm -nodesktop'
 alias gpp='g++'
 alias flex='flexget execute --disable-tracking'
 
+# teamviewer
+alias tvstart='sudo systemctl start teamviewerd'
+alias tvstop='sudo systemctl stop teamviewerd'
 
 # other
 alias graphics='sudo modprobe nouveau'
