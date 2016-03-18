@@ -23,7 +23,7 @@ python2-flask-assets
 python2-flask-compress
 python2-flask-cors
 python2-flask-restful
-python2-flask-restplus
+python2-flask-restplus086
 python2-guessit-rc
 python2-ordereddict
 python2-paver
@@ -33,9 +33,11 @@ python2-pyrss2gen
 python2-pyscss
 python2-pytvmaze
 python2-rebulk
+python2-rednose
 python2-regex
 python2-rpyc
 python2-safe
+python2-termstyle
 python2-tmdb3
 python2-tzlocal
 rpl
