@@ -248,6 +248,7 @@ wget
 whois
 wine
 winetricks
+wireshark-gtk
 wmctrl
 wmname
 wpa_supplicant
