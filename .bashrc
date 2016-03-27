@@ -195,6 +195,11 @@ export PERL_MM_OPT="INSTALL_BASE=/home/highway/perl5";
 export PERL5LIB="/home/highway/perl5/lib/perl5/x86_64-linux-thread-multi:/home/highway/perl5/lib/perl5";
 export PATH="~/perl5/bin:$PATH";
 export PATH="~/bin:$PATH";
+
+export JAVA_HOME=/opt/jdk1.8.0_73
+export JRE_HOME=/opt/jdk1.8.0_73/jre
+export PATH=${PATH}:$HOME/bin:JAVA_HOME:JRE_HOME
+
 export PATH=${PATH}:/home/.config/log4j2.xml
 export PATH=${PATH}:/home/highway/android-sdk-linux/platform-tools:/home/highway/android-sdk-linux/tools;
 export PATH=${PATH}:/usr/local/apache-log4j-2.5
