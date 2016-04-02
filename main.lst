@@ -192,6 +192,7 @@ python2-beautifulsoup4
 python2-certifi
 python2-enum34
 python2-pathlib
+python2-pbr
 python2-pip
 python2-pygeoip
 python2-pyinotify
