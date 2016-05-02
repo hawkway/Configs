@@ -73,8 +73,7 @@ alias monkoff='env DISPLAY=:0.0 screen sh ~/bin/killvlc_now.sh'
 
 # scripts
 alias parse='sh ~/bin/FileParser.sh'
-alias check='sh ~/bin/wrapper_createDir.sh'
-alias process='parse && check'
+alias process='parse'
 alias unrars='perl ~/bin/unrar.pl'
 alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
