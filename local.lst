@@ -10,7 +10,6 @@ lib32-libjpeg6-turbo
 lib32-libpng12
 libpng12
 montecarlo-font
-neuropolitical_font
 oxygen-gtk3
 pacaur
 pkgcacheclean
@@ -49,7 +48,6 @@ unscd
 urxvt-perls-git
 virtualbox-extension-pack
 wego-git
-wicked-git
 xcursor-arch-simple
 xcursor-dmz
 xcursor-shere-khan-x
