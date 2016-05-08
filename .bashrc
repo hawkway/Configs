@@ -143,6 +143,9 @@ alias flex='flexget execute --disable-tracking'
 alias tvstart='sudo systemctl start teamviewerd'
 alias tvstop='sudo systemctl stop teamviewerd'
 
+# shit
+alias y='~/bin/youtube.sh'
+
 # other
 alias graphics='sudo modprobe nouveau'
 alias mpvbox='sudo modprobe vboxdrv'
