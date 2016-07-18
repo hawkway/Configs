@@ -190,6 +190,7 @@ python-pip
 python2-beautifulsoup3
 python2-beautifulsoup4
 python2-certifi
+python2-dateutil
 python2-enum34
 python2-pathlib
 python2-pbr
