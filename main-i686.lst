@@ -150,6 +150,8 @@ memtest86+
 mesa
 mlocate
 moc
+mongodb
+mongodb-tools
 mosh
 mtools
 multitail
