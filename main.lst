@@ -205,6 +205,7 @@ python2-pygeoip
 python2-pyinotify
 python2-sqlalchemy
 rsync
+rxvt-unicode
 samba
 screen
 scrot
@@ -240,6 +241,7 @@ udevil
 unrar
 unzip
 upx
+urxvt-perls
 vbam-gtk
 vicious
 virtualbox
