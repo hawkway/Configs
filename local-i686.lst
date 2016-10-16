@@ -1,7 +1,5 @@
 cower
 downgrade
-elementary
-evas_generic_loaders
 flexget
 gedit2
 geeh
@@ -45,7 +43,6 @@ ttf-ms-fonts
 ttf-oxygen
 ttf-vista-fonts
 unscd
-urxvt-perls-git
 virtualbox-ext-oracle
 wego-git
 xcursor-dmz
