@@ -80,7 +80,7 @@ alias unrarcl='unrars && cleandir'
 alias gcreate='sh ~/bin/github.sh'
 
 # mount
-alias letsgo='tc1 && back2 open && tc3 && back4 open && back5 open && myContainer'
+alias letsgo='tc1 && back2 open && tc3 && back4 open && back5 open && myContainer open'
 alias tc1='sudo sh ~/bin/tc1.sh'
 alias tc2='sudo sh ~/bin/tc2.sh'
 alias tc3='sudo sh ~/bin/tc3.sh'
