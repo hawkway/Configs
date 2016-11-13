@@ -23,8 +23,8 @@ export LANG=en_US.UTF-8
 ## start Desktop Environment/Window Manager
 if [ $1 = "awesome" ]; then
 	exec awesome >> "$HOME"/.cache/awesome/stdout 2>> "$HOME"/.cache/awesome/stderr
-#elif [ $1 = "kde" ]; then
-#	exec startkde
+elif [ $1 = "kde" ]; then
+	exec startkde
 elif [ $1 = "e17" ]; then
 	exec enlightenment_start
 else
