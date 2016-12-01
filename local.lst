@@ -11,6 +11,7 @@ nightingale-git
 pacaur
 pkgcacheclean
 prboom
+python-aniso8601
 python2-aniso8601
 python2-apscheduler
 python2-babelfish
@@ -20,6 +21,7 @@ python2-flask-restful
 python2-flask-restplus086
 python2-guessit
 python2-ordereddict
+python2-path
 python2-plumbum
 python2-pynzb
 python2-pyrss2gen
