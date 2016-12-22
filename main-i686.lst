@@ -48,7 +48,6 @@ dialog
 dmenu
 dmidecode
 dolphin
-dolphinpart4
 dosfstools
 driconf
 dvd+rw-tools
@@ -107,7 +106,6 @@ jdk8-openjdk
 john
 jshon
 k3b
-kdegraphics-okular
 keepassx
 keychain
 kmahjongg
@@ -170,6 +168,7 @@ ntfs-3g
 ntp
 nvidia
 nvidia-libgl
+okular
 opencl-nvidia
 openmpi
 openshot
