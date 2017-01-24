@@ -5,6 +5,12 @@ flexget
 gedit2
 geeh
 gpgmepp
+gstreamer0.10
+gstreamer0.10-bad
+gstreamer0.10-base
+gstreamer0.10-base-plugins
+gstreamer0.10-good
+gstreamer0.10-ugly
 gtk-engine-unico
 gtk-theme-flatstudio
 kde-base-artwork
@@ -54,5 +60,6 @@ ttf-vista-fonts
 unscd
 virtualbox-ext-oracle
 wego-git
+wxgtk2.8
 xcursor-dmz
 youtube-dl-git
