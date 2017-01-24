@@ -4,6 +4,7 @@ downgrade
 flexget
 gedit2
 geeh
+goocanvas1
 gpgmepp
 gstreamer0.10
 gstreamer0.10-bad
@@ -23,6 +24,7 @@ nightingale-git
 pacaur
 pkgcacheclean
 prboom
+pygoocanvas
 python-aniso8601
 python2-aniso8601
 python2-apscheduler
