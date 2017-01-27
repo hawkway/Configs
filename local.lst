@@ -15,6 +15,7 @@ gstreamer0.10-good
 gstreamer0.10-ugly
 gtk-engine-unico
 gtk-theme-flatstudio
+js17
 kde-base-artwork
 kdebase-lib
 libbonobo
@@ -25,6 +26,7 @@ libgnomeui
 libkactivities4
 libkexiv2_4
 libkscreen4
+luakit
 montecarlo-font
 nightingale-git
 orbit2

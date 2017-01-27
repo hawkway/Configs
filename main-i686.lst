@@ -131,7 +131,6 @@ lm_sensors
 lshw
 lua51-filesystem
 lua51-socket
-luakit
 lxappearance
 lxtask
 lynx
