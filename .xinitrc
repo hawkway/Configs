@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## start urxvt daemon
-urxvtd -q -o -f
+#urxvtd -q -o -f
 
 ## start clipboard manager
 #autocutsel -fork &

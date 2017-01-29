@@ -17,7 +17,6 @@ autoconf
 autocutsel
 automake
 avidemux-qt
-awesome
 baobab
 bash-completion
 bc
@@ -93,6 +92,7 @@ hub
 hunspell-en
 hwinfo
 hyphen-en
+i3-wm
 icedtea-web
 intel-ucode
 intellij-idea-community-edition
@@ -102,6 +102,8 @@ jdk8-openjdk
 john
 jshon
 k3b
+kdemultimedia-kmix
+kdeplasma-addons
 keepassx
 keychain
 kmahjongg
@@ -204,6 +206,7 @@ rxvt-unicode
 samba
 screen
 scrot
+sddm
 sdlmame
 shotwell
 smplayer
@@ -228,6 +231,7 @@ tor
 torsocks
 traceroute
 transmission-gtk
+transmission-qt
 truecrypt
 tsocks
 ttf-bitstream-vera
