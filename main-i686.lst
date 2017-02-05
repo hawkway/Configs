@@ -108,6 +108,7 @@ kdeplasma-addons
 keepassx
 keychain
 kmahjongg
+kphotoalbum
 lftp
 gtk2
 libldap
@@ -202,6 +203,7 @@ python2-pygeoip
 python2-pyinotify
 python2-sqlalchemy
 qmc2
+ristretto
 rsync
 rxvt-unicode
 samba
@@ -236,6 +238,7 @@ transmission-qt
 truecrypt
 tsocks
 ttf-bitstream-vera
+tumbler
 tuxguitar
 typescript
 udevil
