@@ -41,7 +41,6 @@ python2-rpyc
 python2-safe
 python2-tmdb3
 python2-tzlocal
-quazip
 retroshare-git
 robomongo
 rpl
@@ -60,4 +59,3 @@ virtualbox-ext-oracle
 wego-git
 wxgtk2.8
 xcursor-dmz
-youtube-dl-git
