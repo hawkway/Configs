@@ -115,7 +115,6 @@ lib32-libldap
 lib32-libtxc_dxtn
 lib32-libxft
 lib32-mpg123
-lib32-nvidia-libgl
 lib32-openal
 lib32-opencl-nvidia
 libisoburn
@@ -165,7 +164,6 @@ npm
 ntfs-3g
 ntp
 nvidia
-nvidia-libgl
 okular
 opencl-nvidia
 openmpi

@@ -115,7 +115,6 @@ libldap
 libtxc_dxtn
 libxft
 mpg123
-nvidia-libgl
 openal
 opencl-nvidia
 libisoburn
@@ -165,7 +164,6 @@ npm
 ntfs-3g
 ntp
 nvidia
-nvidia-libgl
 okular
 opencl-nvidia
 openmpi
