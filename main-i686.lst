@@ -276,9 +276,7 @@ xorg-fonts-75dpi
 xorg-fonts-type1
 xorg-server
 xorg-server-devel
-xorg-server-utils
 xorg-server-xephyr
-xorg-utils
 xorg-xinit
 xorg-xkill
 xterm
