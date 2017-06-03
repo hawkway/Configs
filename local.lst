@@ -21,6 +21,7 @@ libgnome
 libgnome-data
 libgnomeui
 libkactivities4
+libqzeitgeist
 linuxdcpp
 montecarlo-font
 orbit2
