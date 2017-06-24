@@ -4,7 +4,6 @@ downgrade
 flexget
 gedit2
 geeh
-gnome-vfs
 gstreamer0.10
 gstreamer0.10-bad
 gstreamer0.10-base
@@ -15,16 +14,9 @@ gtk-engine-unico
 gtk-theme-flatstudio
 kde-base-artwork
 kdebase-lib
-libbonobo
-libbonoboui
-libgnome
-libgnome-data
-libgnomeui
 libkactivities4
-libqzeitgeist
 linuxdcpp
 montecarlo-font
-orbit2
 pacaur
 pkgcacheclean
 prboom
