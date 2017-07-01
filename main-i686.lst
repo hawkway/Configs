@@ -174,6 +174,7 @@ oxygen
 p7zip
 parcellite
 patch
+pavucontrol
 pidgin
 pinta
 pkg-config
@@ -181,13 +182,14 @@ pkgfile
 plasma-desktop
 polipo
 ppp
+pulseaudio
+pulseaudio-alsa
 putty
 pv
 pystatgrab
 python
 python-html2text
 python-pip
-python2-beautifulsoup3
 python2-beautifulsoup4
 python2-certifi
 python2-dateutil
@@ -250,7 +252,6 @@ vnstat
 vorbis-tools
 vsftpd
 wavpack
-webkitgtk2
 weechat
 wget
 whois

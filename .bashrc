@@ -102,6 +102,7 @@ alias movetv='sh ~/bin/move_tv.sh'
 alias movevid='sh ~/bin/move_video.sh'
 alias unrarclt='unrarcl && movetv'
 alias unrarclv='unrarcl && movevid'
+alias fsc='python2 ~/bin/fsc_script.py'
 
 # video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'

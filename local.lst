@@ -24,6 +24,7 @@ pycharm-community
 python2-aniso8601
 python2-apscheduler
 python2-babelfish
+python2-beautifulsoup3
 python2-flask-compress
 python2-flask-cors
 python2-flask-restful
@@ -54,6 +55,7 @@ ttf-oxygen
 ttf-vista-fonts
 unscd
 virtualbox-ext-oracle
+webkitgtk2
 wxgtk2.8
 xcursor-dmz
 xorg-server-utils
