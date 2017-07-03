@@ -111,8 +111,10 @@ kphotoalbum
 lftp
 gtk2
 libldap
+libpulse
 libtxc_dxtn
 libxft
+libxtst
 mpg123
 openal
 opencl-nvidia
@@ -233,7 +235,7 @@ tint2
 tor
 torsocks
 traceroute
-transmission-qt
+transmission-gtk
 truecrypt
 tsocks
 ttf-bitstream-vera
