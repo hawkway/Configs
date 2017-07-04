@@ -25,8 +25,10 @@ if [ $1 = "awesome" ]; then
 	exec awesome >> "$HOME"/.cache/awesome/stdout 2>> "$HOME"/.cache/awesome/stderr
 elif [ $1 = "kde" ]; then
 	exec startkde
-elif [ $1 = "e17" ]; then
+elif [ $1 = "e" ]; then
 	exec enlightenment_start
+elif [ $1 = "i3" ]; then
+	exec i3
 else
 	exec enlightenment_start
 fi
