@@ -142,8 +142,8 @@ alias gpp='g++'
 alias flex='flexget execute --disable-tracking'
 
 # teamviewer
-alias tvstart='sudo systemctl start teamviewerd'
-alias tvstop='sudo systemctl stop teamviewerd'
+alias tvstart='teamviewer --daemon start'
+alias tvstop='teamviewer --daemon stop'
 
 # shit
 alias y='~/bin/youtube.sh'
