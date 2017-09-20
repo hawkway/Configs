@@ -36,6 +36,7 @@ python2-guessit
 python2-path
 python2-paver
 python2-plumbum
+python2-portend
 python2-pynzb
 python2-pyrss2gen
 python2-pyscss
