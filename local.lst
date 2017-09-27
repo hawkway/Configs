@@ -27,7 +27,6 @@ python2-babelfish
 python2-beautifulsoup3
 python2-cheroot
 python2-cherrypy
-python2-colorclass
 python2-flask-compress
 python2-flask-cors
 python2-flask-restful
@@ -45,7 +44,6 @@ python2-rebulk
 python2-rpyc
 python2-safe
 python2-tempora
-python2-terminaltables
 python2-tmdb3
 python2-tzlocal
 python2-zxcvbn
