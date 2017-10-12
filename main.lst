@@ -50,8 +50,6 @@ dolphin
 dosfstools
 driconf
 dvd+rw-tools
-eclipse-common
-eclipse-java
 efl
 elinks
 emacs
@@ -103,6 +101,7 @@ jdk8-openjdk
 john
 jshon
 k3b
+kdbg
 kdemultimedia-kmix
 kdeplasma-addons
 keepassx
@@ -263,6 +262,7 @@ wget
 whois
 wine
 winetricks
+wireshark-gtk
 wmctrl
 wmname
 wpa_supplicant
