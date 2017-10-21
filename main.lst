@@ -31,6 +31,7 @@ catfish
 cclive
 cdrdao
 clisp
+clojure
 cmake
 cmatrix
 codeblocks
@@ -71,6 +72,7 @@ fortune-mod
 fuseiso
 gcolor2
 gdb
+ghc
 gimp
 git
 gnome-disk-utility

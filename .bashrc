@@ -203,7 +203,7 @@ export PATH="~/bin:$PATH";
 export JAVA_HOME=/opt/jdk1.8.0_73
 export JRE_HOME=/opt/jdk1.8.0_73/jre
 export PATH=${PATH}:$HOME/bin:JAVA_HOME:JRE_HOME
-
+export GOPATH=/home/highway/langs/Go
 export PATH=${PATH}:/home/.config/log4j2.xml
 export PATH=${PATH}:/home/highway/android-sdk-linux/platform-tools:/home/highway/android-sdk-linux/tools;
 export PATH=${PATH}:/usr/local/apache-log4j-2.5
