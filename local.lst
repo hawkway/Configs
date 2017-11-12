@@ -16,6 +16,7 @@ gtk-theme-flatstudio
 kde-base-artwork
 kdebase-lib
 libkactivities4
+libxfont
 linuxdcpp
 montecarlo-font
 pacaur
@@ -53,11 +54,9 @@ top-c
 ttf-envy-code-r
 ttf-mplus
 ttf-ms-fonts
-ttf-oxygen
 ttf-vista-fonts
 unscd
 virtualbox-ext-oracle
-visual-studio-code
 webkitgtk2
 wxgtk2.8
 xcursor-dmz

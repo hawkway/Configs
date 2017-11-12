@@ -52,6 +52,7 @@ dolphin
 dosfstools
 driconf
 dvd+rw-tools
+eclipse-cpp
 efl
 elinks
 emacs
@@ -197,6 +198,7 @@ pystatgrab
 python
 python-html2text
 python-pip
+python-selenium
 python2-beautifulsoup4
 python2-certifi
 python2-dateutil
@@ -206,6 +208,7 @@ python2-pbr
 python2-pip
 python2-pygeoip
 python2-pyinotify
+python2-selenium
 python2-sqlalchemy
 qmc2
 ristretto
