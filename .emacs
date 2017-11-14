@@ -8,11 +8,8 @@
 (setq inhibit-startup-message t)
 
 ;; Set background color to "dark gray"
-;;(when (display-graphic-p)
-;;  (set-background-color "darkgray"))
-
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'pencil t)
+(when (display-graphic-p)
+  (set-background-color "darkgray"))
 
 ;; Move more quickly
 (global-set-key (kbd "C-S-n")
@@ -61,21 +58,4 @@
                (message "File '%s' successfully renamed to '%s'" name (file-name-nondirectory new-name))))))))
 
 (global-set-key (kbd "C-c r") 'rename-this-buffer-and-file)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (pencil)))
- '(custom-safe-themes
-   (quote
-    ("68cd93723b053578958790cafcfcf8b44375bab4f1d5fb97de7a317f4ae10d0f")))
- '(pencil/dark t)
- '(pencil/higher-contrast-ui nil)
- '(pencil/italics nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+

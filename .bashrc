@@ -93,6 +93,7 @@ alias myContainer='sudo sh ~/bin/my_container.sh'
 
 # dev
 alias g11='g++ -std=c++11'
+alias g14='g++ -std=c++14'
 
 # backup
 alias gameboy='sh ~/bin/gameboy_bu.sh'
@@ -132,7 +133,7 @@ alias doom2='prboom -iwad doom2.wad'
 alias dday='launch-doomsday'
 
 # apps
-alias w='wego'
+alias w='wget'
 alias e='emacs -nw'
 alias es='sudo emacs -nw'
 alias v='vim'
