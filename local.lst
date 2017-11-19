@@ -23,11 +23,6 @@ pacaur
 pkgcacheclean
 prboom
 pycharm-community
-python-enum-compat
-python-flask-git
-python-gdbgui
-python-pygdbmi
-python-pypugjs
 python2-aniso8601
 python2-apscheduler
 python2-babelfish
