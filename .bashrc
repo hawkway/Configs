@@ -148,6 +148,8 @@ alias tvstop='teamviewer --daemon stop'
 
 # shit
 alias y='~/bin/youtube.sh'
+alias yy='~/bin/youtube_list_id.sh'
+alias yyy='~/bin/youtube_list.sh'
 
 # other
 alias graphics='sudo modprobe nouveau'
