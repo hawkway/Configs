@@ -27,6 +27,7 @@ python2-aniso8601
 python2-apscheduler
 python2-babelfish
 python2-beautifulsoup3
+python2-episode-renamer
 python2-flask-compress
 python2-flask-cors
 python2-flask-restful
