@@ -50,7 +50,6 @@ dolphin
 dosfstools
 driconf
 dvd+rw-tools
-eclipse-cpp
 efl
 elinks
 emacs
@@ -102,7 +101,6 @@ jdk8-openjdk
 john
 jshon
 k3b
-kdbg
 kdemultimedia-kmix
 kdeplasma-addons
 keepassx
