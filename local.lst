@@ -3,6 +3,8 @@ cower
 dolphinpart4
 downgrade
 flexget
+gcc-libs-multilib
+gcc-multilib
 gedit2
 geeh
 gstreamer0.10
