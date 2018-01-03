@@ -111,7 +111,6 @@ lftp
 gtk2
 libldap
 libpulse
-libtxc_dxtn
 libxft
 libxtst
 mpg123
@@ -248,7 +247,6 @@ unrar
 unzip
 upx
 urxvt-perls
-vbam-gtk
 vicious
 virtualbox
 virtualbox-guest-dkms

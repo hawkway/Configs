@@ -111,7 +111,6 @@ lftp
 lib32-gtk2
 lib32-libldap
 lib32-libpulse
-lib32-libtxc_dxtn
 lib32-libxft
 lib32-libxtst
 lib32-mpg123
@@ -248,7 +247,6 @@ unrar
 unzip
 upx
 urxvt-perls
-vbam-gtk
 vicious
 virtualbox
 virtualbox-guest-dkms

@@ -15,7 +15,9 @@ gtk-engine-unico
 gtk-theme-flatstudio
 kde-base-artwork
 kdebase-lib
+libtxc_dxtn
 libkactivities4
+libtxc_dxtn
 linuxdcpp
 montecarlo-font
 pacaur
@@ -56,6 +58,7 @@ ttf-mplus
 ttf-ms-fonts
 ttf-vista-fonts
 unscd
+vbam-gtk
 virtualbox-ext-oracle
 webkitgtk2
 wxgtk2.8
