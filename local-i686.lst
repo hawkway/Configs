@@ -13,6 +13,7 @@ gstreamer0.10-good
 gstreamer0.10-ugly
 gtk-engine-unico
 gtk-theme-flatstudio
+gtkglextmm
 kde-base-artwork
 kdebase-lib
 libtxc_dxtn
@@ -20,6 +21,7 @@ libkactivities4
 libtxc_dxtn
 linuxdcpp
 montecarlo-font
+openslp
 pacaur
 pkgcacheclean
 prboom
@@ -51,12 +53,14 @@ rpl
 spacefm
 sublime-text
 sublime-text-dev
+tcltls
 teamviewer11
 top-c
 ttf-envy-code-r
 ttf-mplus
 ttf-ms-fonts
 ttf-vista-fonts
+tuxguitar
 unscd
 vbam-gtk
 virtualbox-ext-oracle
@@ -65,4 +69,5 @@ wxgtk2.8
 xcursor-dmz
 xorg-server-utils
 xorg-utils
+xvkbd
 youtube-dl-git

@@ -225,7 +225,6 @@ steam
 sudo
 syslinux
 tangerine-icon-theme
-tcltls
 tcpdump
 terminology
 terminus-font
@@ -240,7 +239,6 @@ truecrypt
 tsocks
 ttf-bitstream-vera
 tumbler
-tuxguitar
 typescript
 udevil
 unrar
@@ -286,7 +284,6 @@ xorg-server-xephyr
 xorg-xinit
 xorg-xkill
 xterm
-xvkbd
 yajl
 zenity
 zip
