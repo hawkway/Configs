@@ -85,6 +85,7 @@ guvcview
 gvim
 hardinfo
 hddtemp
+hexchat
 hicolor-icon-theme
 htop
 hub
@@ -143,6 +144,7 @@ meld
 memcached
 memtest86+
 mesa
+mkvtoolnix-gui
 mlocate
 moc
 mongodb
