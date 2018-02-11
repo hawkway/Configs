@@ -19,10 +19,8 @@ kde-base-artwork
 kdebase-lib
 lib32-libtxc_dxtn
 libkactivities4
-libtxc_dxtn
 linuxdcpp
 montecarlo-font
-openslp
 pacaur
 pkgcacheclean
 prboom
