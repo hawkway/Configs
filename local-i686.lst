@@ -18,6 +18,7 @@ gstreamer0.10-ugly
 gtk-engine-unico
 gtk-theme-flatstudio
 gtkglextmm
+js
 kde-base-artwork
 kdebase-lib
 libtxc_dxtn
@@ -28,6 +29,7 @@ pacaur
 pkgcacheclean
 prboom
 pycharm-community
+python-aniso8601
 python2-aniso8601
 python2-apscheduler
 python2-babelfish
