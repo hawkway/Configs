@@ -139,6 +139,7 @@ lynx
 lzop
 m4
 make
+mame
 mcomix
 meld
 memcached
@@ -216,7 +217,6 @@ scapy
 screen
 scrot
 sddm
-sdlmame
 shotwell
 smplayer
 spectacle
