@@ -144,6 +144,10 @@ alias matlabn='matlab -nojvm -nodesktop'
 alias gpp='g++'
 alias flex='flexget execute --disable-tracking'
 
+# startx
+alias sddmstart='sudo systemctl start sddm.service'
+alias startsddm='sudo systemctl start sddm.service'
+
 # teamviewer
 alias tvstart='teamviewer --daemon start'
 alias tvstop='teamviewer --daemon stop'
