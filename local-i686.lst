@@ -9,7 +9,6 @@ flexget
 gconf-gtk2
 gedit2
 geeh
-gegl02
 gstreamer0.10
 gstreamer0.10-bad
 gstreamer0.10-base
@@ -20,7 +19,6 @@ gtk-engine-unico
 gtk-theme-flatstudio
 gtkglextmm
 jdownloader2
-js
 kde-base-artwork
 kdebase-lib
 libtxc_dxtn
@@ -41,7 +39,6 @@ python2-flask-cors
 python2-flask-restplus086
 python2-guessit
 python2-path
-python2-paver
 python2-plumbum
 python2-pynzb
 python2-pyrss2gen
