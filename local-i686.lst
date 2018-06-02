@@ -19,6 +19,7 @@ gstreamer0.10-ugly
 gtk-engine-unico
 gtk-theme-flatstudio
 gtkglextmm
+jdownloader2
 js
 kde-base-artwork
 kdebase-lib
@@ -27,18 +28,16 @@ libkactivities4
 linuxdcpp
 montecarlo-font
 pacaur
+package-query
 pkgcacheclean
 prboom
 pycharm-community
-python-aniso8601
-python2-aniso8601
 python2-apscheduler
 python2-babelfish
 python2-beautifulsoup3
 python2-episode-renamer
 python2-flask-compress
 python2-flask-cors
-python2-flask-restful
 python2-flask-restplus086
 python2-guessit
 python2-path
@@ -52,6 +51,7 @@ python2-rebulk
 python2-rpyc
 python2-tmdb3
 python2-zxcvbn
+rar
 retroshare
 robomongo
 rpl

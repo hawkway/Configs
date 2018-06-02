@@ -54,8 +54,8 @@ efl
 elinks
 emacs
 encfs
-enlightenment
 epdfview
+evince
 expac
 fakeroot
 fceux
@@ -176,13 +176,12 @@ openttd-opensfx
 oxygen
 p7zip
 pamixer
-parcellite
 patch
 pavucontrol
 pavucontrol-qt
 pidgin
 pinta
-pkg-config
+pkgconf
 pkgfile
 plasma-desktop
 plasma-pa

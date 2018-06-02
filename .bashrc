@@ -106,6 +106,7 @@ alias unrarclt='unrarcl && movetv'
 alias unrarclv='unrarcl && movevid'
 #alias fsc='python2 ~/bin/fsc_script.py'
 alias fsc='sh ~/bin/fsc_wrapper.sh'
+alias renamecb='sh ~/bin/cbz_to_cbr/cbz_to_cbr.sh'
 
 # video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'
@@ -214,7 +215,7 @@ export JRE_HOME=/opt/jdk1.8.0_73/jre
 export PATH=${PATH}:$HOME/bin:JAVA_HOME:JRE_HOME
 export GOPATH=/home/highway/langs/Go
 export PATH=${PATH}:/home/.config/log4j2.xml
-export PATH=${PATH}:/home/highway/android-sdk-linux/platform-tools:/home/highway/android-sdk-linux/tools;
+export PATH=${PATH}:/home/highway/android-sdk-linux/platform-tools:/home/highway/android-sdk-linux/tools:/home/highway/bin;
 export PATH=${PATH}:/usr/local/apache-log4j-2.5
 export CLASSPATH=/usr/local/apache-log4j-2.5-bin/log4j-api-2.5.jar
 export CLASSPATH=${CLASSPATH}:/usr/local/apache-log4j-2.5-bin/log4j-core-2.5.jar
