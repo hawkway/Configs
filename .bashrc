@@ -106,7 +106,8 @@ alias unrarclt='unrarcl && movetv'
 alias unrarclv='unrarcl && movevid'
 #alias fsc='python2 ~/bin/fsc_script.py'
 alias fsc='sh ~/bin/fsc_wrapper.sh'
-alias renamecb='sh ~/bin/cbz_to_cbr/cbz_to_cbr.sh'
+# alias renamecb='sh ~/bin/cbz_to_cbr/cbz_to_cbr.sh'
+alias renamecb='python2 ~/bin/cbz_to_cbr/pyRename.py'
 
 # video processing
 alias joinavi='mencoder -oac copy -ovc copy -o ~/input/aaaa.avi ~/input/m1.avi ~/input/m2.avi'

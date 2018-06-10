@@ -30,5 +30,6 @@ elif [ $1 = "e" ]; then
 elif [ $1 = "i3" ]; then
 	exec i3
 else
-	exec enlightenment_start
+        exec sudo systemctl start sddm.service
+	#exec enlightenment_start
 fi
