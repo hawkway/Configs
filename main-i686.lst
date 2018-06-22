@@ -176,6 +176,9 @@ pamixer
 patch
 pavucontrol
 pavucontrol-qt
+perl-clone
+perl-file-chdir
+perl-path-class
 pidgin
 pinta
 pkgconf
