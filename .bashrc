@@ -77,6 +77,7 @@ alias process='parse'
 alias unrars='perl ~/bin/unrar.pl'
 alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
+alias unrarpy='python ~/bin/unrar.py && cleandir'
 alias gcreate='sh ~/bin/github.sh'
 
 # mount
