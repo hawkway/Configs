@@ -77,8 +77,10 @@ alias process='parse'
 alias unrars='perl ~/bin/unrar.pl'
 alias cleandir='rm -rf ~/input/zzz_EXT/*'
 alias unrarcl='unrars && cleandir'
-alias unrarpy='python ~/bin/unrar.py && cleandir'
+alias unrarpy='python ~/bin/extract/unrar.py && cleandir'
+alias unrarall='python ~/bin/extract/unrar_update.py && cleandir'
 alias gcreate='sh ~/bin/github.sh'
+alias extractall='~/bin/extract/extract_all.sh'
 
 # mount
 alias letsgo='back1 open && back2 open && tc3 && back4 open && back5 open && myContainer open'
@@ -156,14 +158,15 @@ alias tvstart='teamviewer --daemon start'
 alias tvstop='teamviewer --daemon stop'
 
 # shit
-alias y='~/bin/youtube.sh'
-alias yy='~/bin/youtube_list_id.sh'
-alias yyy='~/bin/youtube_list.sh'
+alias y='~/bin/youtube/youtube.sh'
+alias yy='~/bin/youtube/youtube_list_id.sh'
+alias yyy='~/bin/youtube/youtube_list.sh'
 
 # other
 alias graphics='sudo modprobe nouveau'
 alias mpvbox='sudo modprobe vboxdrv'
 alias rc='e ~/.bashrc'
+alias catrc="cat ~/.bashrc | grep"
 
 # system
 alias s='sudo'

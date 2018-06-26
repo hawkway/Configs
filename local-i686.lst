@@ -27,6 +27,7 @@ linuxdcpp
 montecarlo-font
 pacaur
 package-query
+pcmciautils
 pkgcacheclean
 prboom
 pycharm-community
@@ -71,4 +72,3 @@ xcursor-dmz
 xorg-server-utils
 xorg-utils
 xvkbd
-youtube-dl-git
