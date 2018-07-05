@@ -40,7 +40,6 @@ cpanminus
 cronie
 curlftpfs
 dash
-deadbeef
 desmume
 devtools
 dialog
@@ -58,7 +57,6 @@ epdfview
 expac
 fakeroot
 fceux
-feh
 ffmpegthumbs
 filezilla
 firefox
@@ -68,7 +66,6 @@ fontconfig
 fortune-mod
 fuseiso
 gcolor2
-gdb
 gimp
 git
 gitlab
@@ -76,7 +73,6 @@ gnome-disk-utility
 gnome-icon-theme
 gnome-icon-theme-extras
 gnunet-gtk
-go
 gparted
 gpicview
 gtk-engine-murrine
@@ -92,7 +88,6 @@ hub
 hunspell-en
 hwinfo
 hyphen-en
-i3-wm
 icedtea-web
 intel-ucode
 intellij-idea-community-edition
@@ -145,7 +140,6 @@ meld
 memcached
 memtest86+
 mesa
-mkvtoolnix-gui
 mlocate
 moc
 mongodb
@@ -182,7 +176,6 @@ pavucontrol-qt
 perl-clone
 perl-file-chdir
 perl-path-class
-pidgin
 pinta
 pkgconf
 pkgfile
