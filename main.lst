@@ -40,6 +40,7 @@ cpanminus
 cronie
 curlftpfs
 dash
+deadbeef
 desmume
 devtools
 dialog
@@ -66,12 +67,14 @@ fontconfig
 fortune-mod
 fuseiso
 gcolor2
+gimp
 git
 gitlab
 gnome-disk-utility
 gnome-icon-theme
 gnome-icon-theme-extras
 gnunet-gtk
+go
 gparted
 gpicview
 gtk-engine-murrine
@@ -87,6 +90,7 @@ hub
 hunspell-en
 hwinfo
 hyphen-en
+i3-wm
 icedtea-web
 intel-ucode
 intellij-idea-community-edition
@@ -141,6 +145,8 @@ memtest86+
 mesa
 mlocate
 moc
+mongodb
+mongodb-tools
 mosh
 mtools
 multitail
