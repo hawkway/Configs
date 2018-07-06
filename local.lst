@@ -2,7 +2,6 @@ brave-bin
 cower
 dolphinpart4
 downgrade
-eggdrop
 enchant1.6
 exiftags
 flexget
@@ -23,7 +22,6 @@ kde-base-artwork
 kdebase-lib
 lib32-libtxc_dxtn
 libkactivities4
-linuxdcpp
 montecarlo-font
 pacaur
 package-query
@@ -63,7 +61,6 @@ ttf-envy-code-r
 ttf-mplus
 ttf-ms-fonts
 ttf-vista-fonts
-tuxguitar
 unscd
 vbam-gtk
 virtualbox-ext-oracle
