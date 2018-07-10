@@ -94,7 +94,6 @@ alias back4='sudo sh ~/bin/backup4.sh'
 alias back5='sudo sh ~/bin/backup5.sh'
 alias back5='sudo sh ~/bin/backup5.sh'
 alias myContainer='sudo sh ~/bin/my_container.sh'
-# testing
 
 # dev
 alias g11='g++ -std=c++11'
@@ -180,7 +179,7 @@ alias ftpstop='sudo systemctl stop vsftpd.service'
 alias update='sudo pacman -Syu'
 alias syua='pacaur -Syua'         # update aur packages
 alias devel='pacaur -Syua --devel' # update devel packages
-alias updates='sudo pacman -Syu && pacaur -Syua && cclean && geeh -b'
+alias updates='sudo pacman -Syu && pacaur -Syua && echo "" && cclean && echo "" && geeh -b'
 
 # enlightenment
 alias erestart='env DISPLAY=:0 enlightenment_remote -restart'
