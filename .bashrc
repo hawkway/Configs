@@ -149,6 +149,9 @@ alias matlabn='matlab -nojvm -nodesktop'
 alias gpp='g++'
 alias flex='flexget execute --disable-tracking'
 
+# gitlab sync
+alias netupdate='sh ~/bin/gitlab/gitlab_push_NetworkInfoDisplay.sh'
+
 # startx
 alias sddmstart='sudo systemctl start sddm.service'
 alias startsddm='sudo systemctl start sddm.service'
