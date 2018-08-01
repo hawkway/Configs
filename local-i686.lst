@@ -1,4 +1,8 @@
 brave-bin
+clion
+clion-cmake
+clion-gdb
+clion-jre
 cower
 dolphinpart4
 downgrade
@@ -28,7 +32,7 @@ package-query
 pcmciautils
 pkgcacheclean
 prboom
-pycharm-community
+pycharm-professional
 python2-apscheduler
 python2-babelfish
 python2-beautifulsoup3
@@ -49,6 +53,7 @@ python2-tmdb3
 python2-zxcvbn
 rar
 retroshare
+rider
 robo3t-bin
 rpl
 spacefm
@@ -64,6 +69,7 @@ ttf-vista-fonts
 unscd
 vbam-gtk
 virtualbox-ext-oracle
+webstorm
 wxgtk2.8
 xcursor-dmz
 xorg-server-utils
