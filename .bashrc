@@ -1,5 +1,5 @@
-[ ! "$UID" = "0" ] && archey3 -c blue
-[  "$UID" = "0" ] && archey3 -c red
+[ ! "$UID" = "0" ] && archey4 -c blue
+[  "$UID" = "0" ] && archey4 -c red
 
 PS1="\n${DGRAY}╭─[${LBLUE}\w${DGRAY}]\n${DGRAY}╰─[${WHITE}\T${DGRAY}]${DGRAY}>${BLUE}>${LBLUE}> ${RESET_COLOR}"
 
