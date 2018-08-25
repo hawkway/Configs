@@ -135,6 +135,7 @@ libunrar
 libxft
 linux-headers
 lm_sensors
+lostfiles
 lshw
 lua51-filesystem
 lua51-socket
@@ -204,6 +205,7 @@ python-django-extensions
 python-html2text
 python-pip
 python-selenium
+python-zc.lockfile
 python2-beautifulsoup4
 python2-certifi
 python2-dateutil
@@ -251,7 +253,6 @@ truecrypt
 tsocks
 ttf-bitstream-vera
 tumbler
-typescript
 udevil
 unrar
 unzip
