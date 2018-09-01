@@ -23,7 +23,6 @@ gstreamer0.10-good
 gstreamer0.10-ugly
 gtk-engine-unico
 gtk-theme-flatstudio
-gtkglextmm
 jdownloader2
 kde-base-artwork
 kdebase-lib
@@ -34,7 +33,6 @@ libkactivities4
 montecarlo-font
 pacaur
 package-query
-pcmciautils
 phonon-qt4
 phonon-qt4-vlc
 pkgcacheclean
@@ -70,7 +68,6 @@ ttf-mplus
 ttf-ms-fonts
 ttf-vista-fonts
 unscd
-vbam-gtk
 virtualbox-ext-oracle
 webstorm
 webstorm-jre
