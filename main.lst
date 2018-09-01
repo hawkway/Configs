@@ -205,6 +205,7 @@ python-django-extensions
 python-html2text
 python-pip
 python-selenium
+python-virtualenv
 python-zc.lockfile
 python2-beautifulsoup4
 python2-certifi
@@ -218,6 +219,7 @@ python2-pygeoip
 python2-pyinotify
 python2-selenium
 python2-sqlalchemy
+python2-virtualenv
 qmc2
 rawtherapee
 ristretto

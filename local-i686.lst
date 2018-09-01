@@ -1,6 +1,5 @@
 archey4
 attica-qt4
-automoc4
 brave-bin
 clion
 clion-cmake
@@ -11,7 +10,6 @@ dolphinpart4
 downgrade
 enchant1.6
 exiftags
-flexget
 gconf-gtk2
 gedit2
 geeh
@@ -43,21 +41,10 @@ pkgcacheclean
 polkit-qt4
 prboom
 pycharm-professional
-python-apscheduler
 python-babelfish
 python-contextlib2
-python-flask-compress
-python-flask-cors
-python-flask-restplus
 python-guessit
-python-path
-python-pathlib
-python-plumbum
-python-pynzb
-python-pyrss2gen
 python-rebulk
-python-rpyc
-python-zxcvbn
 python2-apscheduler
 python2-babelfish
 python2-beautifulsoup3

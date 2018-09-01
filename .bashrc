@@ -146,7 +146,7 @@ alias v='vim'
 alias vs='sudo vim'
 alias matlabn='matlab -nojvm -nodesktop'
 alias gpp='g++'
-alias flex='flexget execute --disable-tracking'
+alias flex='~/flexget/bin/flexget execute --disable-tracking'
 
 # gitlab sync
 alias netupdate='sh ~/bin/gitlab/gitlab_push_NetworkInfoDisplay.sh'
