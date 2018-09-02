@@ -204,6 +204,7 @@ python-django
 python-django-extensions
 python-html2text
 python-pip
+python-pylint
 python-selenium
 python-virtualenv
 python-zc.lockfile
