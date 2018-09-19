@@ -170,6 +170,10 @@ alias mpvbox='sudo modprobe vboxdrv'
 alias rc='e ~/.bashrc'
 alias catrc="cat ~/.bashrc | grep"
 
+# scripts
+alias movestuff='sh ~/bin/moveStuff.sh'
+alias movef='sh ~/bin/moveStuff2.sh'
+
 # system
 alias s='sudo'
 alias ctl='sudo systemctl'

@@ -218,6 +218,7 @@ python2-pbr
 python2-pip
 python2-pygeoip
 python2-pyinotify
+python2-pyrss2gen
 python2-selenium
 python2-sqlalchemy
 python2-virtualenv
