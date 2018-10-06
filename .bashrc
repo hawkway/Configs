@@ -183,9 +183,9 @@ alias ftpstop='sudo systemctl stop vsftpd.service'
 
 # updates
 alias update='sudo pacman -Syu'
-alias syua='pacaur -Syua'         # update aur packages
 alias devel='pacaur -Syua --devel' # update devel packages
 alias updates='sudo pacman -Syu && pacaur -Syua && echo "" && cclean && echo "" && geeh -b'
+alias updatesa='pacaur -Syua && echo "" && cclean && echo "" && geeh -b'
 
 # enlightenment
 alias erestart='env DISPLAY=:0 enlightenment_remote -restart'
