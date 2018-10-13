@@ -28,7 +28,6 @@ kde-base-artwork
 kdebase-lib
 kdebase-runtime
 kdelibs
-lcms
 libtxc_dxtn
 libkactivities4
 montecarlo-font
