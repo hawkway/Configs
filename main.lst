@@ -146,7 +146,6 @@ lynx
 lzop
 m4
 make
-mame
 mcomix
 meld
 memcached
@@ -224,7 +223,6 @@ python2-pyrss2gen
 python2-selenium
 python2-sqlalchemy
 python2-virtualenv
-qmc2
 rawtherapee
 ristretto
 rsync
