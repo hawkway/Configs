@@ -130,7 +130,8 @@ alias wobblez2='sh ~/bin/ssh_wbl2.sh'
 alias compass='sh ~/bin/ssh_work.sh'
 alias compass2='sh ~/bin/ssh_work2.sh'
 alias granite='sh ~/bin/ssh_granite.sh'
-alias what='sh ~/bin/lftp2_box.sh'
+alias box='sh ~/bin/ssh/ssh_lftp.sh'
+alias sshbox='sh ~/bin/ssh/ssh_box.sh'
 alias nmapscan='nmap -sP 192.168.1.1-255'
 
 # games
