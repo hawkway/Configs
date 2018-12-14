@@ -60,6 +60,7 @@ alias mirror='sudo reflector -c "Canada United States" -f 6 > mirrorlist'
 
 # modified commands
 alias home='cd ~'
+alias etc='cd /etc'
 
 alias ssh='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa) && ssh'
 
@@ -132,6 +133,7 @@ alias compass2='sh ~/bin/ssh_work2.sh'
 alias granite='sh ~/bin/ssh_granite.sh'
 alias box='sh ~/bin/ssh/ssh_lftp.sh'
 alias sshbox='sh ~/bin/ssh/ssh_box.sh'
+alias airedale='sh ~/bin/ssh/ssh_aire.sh'
 alias nmapscan='nmap -sP 192.168.1.1-255'
 
 # games
