@@ -172,6 +172,7 @@ alias graphics='sudo modprobe nouveau'
 alias mpvbox='sudo modprobe vboxdrv'
 alias rc='e ~/.bashrc'
 alias catrc="cat ~/.bashrc | grep"
+alias fix='sudo dhclient -v -4'
 
 # scripts
 alias movestuff='sh ~/bin/moveStuff.sh'
