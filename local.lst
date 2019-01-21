@@ -32,6 +32,7 @@ kdebase-runtime
 kdelibs
 lib32-libtxc_dxtn
 libkactivities4
+mongodb
 montecarlo-font
 pacaur
 package-query
@@ -74,6 +75,7 @@ unscd
 virtualbox-ext-oracle
 webstorm
 webstorm-jre
+wiredtiger
 wxgtk2.8
 xcursor-dmz
 xorg-server-utils
