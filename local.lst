@@ -1,5 +1,6 @@
 archey4
 attica-qt4
+auracle-git
 brave-bin
 clion
 clion-cmake
@@ -15,7 +16,6 @@ exiftags
 gconf-gtk2
 gedit2
 geeh
-geoclue2
 goland
 goland-jre
 gstreamer0.10
@@ -33,6 +33,7 @@ kdebase-runtime
 kdelibs
 lib32-libtxc_dxtn
 libkactivities4
+libnm-gtk
 mongodb
 montecarlo-font
 pacaur
@@ -41,6 +42,7 @@ phonon-qt4
 phonon-qt4-vlc
 pkgcacheclean
 polkit-qt4
+postman-bin
 prboom
 pycharm-professional
 python-babelfish
@@ -50,10 +52,12 @@ python-rebulk
 python2-apscheduler
 python2-babelfish
 python2-beautifulsoup3
+python2-cssutils
 python2-episode-renamer
 python2-plumbum
 python2-pyscss
 python2-rpyc
+python2-selenium
 python2-tmdb3
 rar
 retroshare
