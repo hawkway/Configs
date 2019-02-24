@@ -33,8 +33,6 @@ kdebase-runtime
 kdelibs
 libtxc_dxtn
 libkactivities4
-libnm-gtk
-mongodb-tools
 montecarlo-font
 pacaur
 package-query
@@ -52,7 +50,6 @@ python-rebulk
 python2-apscheduler
 python2-babelfish
 python2-beautifulsoup3
-python2-cssutils
 python2-episode-renamer
 python2-plumbum
 python2-pyrss2gen
@@ -65,8 +62,6 @@ retroshare
 rider
 robo3t-bin
 rpl
-ruby2.3
-ruby2.3-bundler
 spacefm
 sublime-text-dev
 sublime-text2
