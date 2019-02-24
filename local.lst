@@ -34,6 +34,7 @@ kdelibs
 lib32-libtxc_dxtn
 libkactivities4
 libnm-gtk
+mongodb-tools
 montecarlo-font
 pacaur
 package-query
@@ -54,6 +55,7 @@ python2-beautifulsoup3
 python2-cssutils
 python2-episode-renamer
 python2-plumbum
+python2-pyrss2gen
 python2-pyscss
 python2-rpyc
 python2-selenium

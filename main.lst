@@ -158,7 +158,6 @@ mesa
 mkvtoolnix-cli
 mlocate
 moc
-mongodb-tools
 mosh
 mtools
 multitail
@@ -222,7 +221,6 @@ python2-pbr
 python2-pip
 python2-pygeoip
 python2-pyinotify
-python2-pyrss2gen
 python2-sqlalchemy
 python2-virtualenv
 rawtherapee
