@@ -44,7 +44,6 @@ postman-bin
 prboom
 pycharm-professional
 python-babelfish
-python-contextlib2
 python-guessit
 python-rebulk
 python2-apscheduler
@@ -76,6 +75,8 @@ unscd
 virtualbox-ext-oracle
 webstorm
 webstorm-jre
+wireshark-common
+wireshark-gtk
 wxgtk2.8
 xcursor-dmz
 xorg-server-utils

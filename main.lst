@@ -113,6 +113,7 @@ keepassx
 keychain
 kmahjongg
 kmix
+kolourpaint
 kphotoalbum
 kscreen
 lftp
@@ -203,6 +204,7 @@ putty
 pv
 pystatgrab
 python
+python-contextlib2
 python-django
 python-django-extensions
 python-html2text
@@ -276,7 +278,6 @@ wget
 whois
 wine
 winetricks
-wireshark-gtk
 wmctrl
 wmname
 wpa_supplicant
