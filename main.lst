@@ -10,7 +10,6 @@ arch-install-scripts
 archey3
 archlinux-wallpaper
 ark
-artwiz-fonts
 asciidoc
 atop
 audio-convert
@@ -220,7 +219,6 @@ python2-enum34
 python2-pathlib
 python2-pbr
 python2-pip
-python2-pygeoip
 python2-pyinotify
 python2-sqlalchemy
 python2-virtualenv
