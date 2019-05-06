@@ -34,7 +34,9 @@ kde-base-artwork
 kdebase-lib
 kdebase-runtime
 kdelibs
+keepassx
 libtxc_dxtn
+libdbusmenu-qt4
 libkactivities4
 montecarlo-font
 pacaur
@@ -60,6 +62,7 @@ python2-pyscss
 python2-rpyc
 python2-selenium
 python2-tmdb3
+qt4
 rar
 retroshare
 rider
