@@ -150,6 +150,8 @@ alias vs='sudo vim'
 alias matlabn='matlab -nojvm -nodesktop'
 alias gpp='g++'
 alias flex='~/flexget/bin/flexget execute --disable-tracking'
+alias rnra='react-native run-android'
+
 
 # gitlab sync
 alias netupdate='sh ~/bin/gitlab/gitlab_push_NetworkInfoDisplay.sh'
@@ -224,6 +226,13 @@ export PERL_MM_OPT="INSTALL_BASE=/home/highway/perl5";
 export PERL5LIB="/home/highway/perl5/lib/perl5/x86_64-linux-thread-multi:/home/highway/perl5/lib/perl5";
 export PATH="~/perl5/bin:$PATH";
 export PATH="~/bin:$PATH";
+
+export ANDROID_SDK_ROOT=/mnt/backup2/Android/Sdk/
+
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 
 export JAVA_HOME=/opt/jdk1.8.0_73
 export JRE_HOME=/opt/jdk1.8.0_73/jre

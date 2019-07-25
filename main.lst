@@ -34,6 +34,7 @@ chromium
 clojure
 cmake
 cmatrix
+code
 conky
 cowsay
 cpanminus
@@ -242,6 +243,7 @@ tangerine-icon-theme
 tcpdump
 terminology
 terminus-font
+thunar
 thunderbird
 tig
 tint2

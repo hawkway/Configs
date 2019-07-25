@@ -28,6 +28,7 @@ gstreamer0.10-good
 gstreamer0.10-ugly
 gtk-engine-unico
 gtk-theme-flatstudio
+intellij-idea-ultimate-edition
 jdownloader2
 kde-base-artwork
 kdebase-lib
@@ -69,7 +70,6 @@ rider
 robo3t-bin
 rpl
 spacefm
-spotify
 sublime-text-dev
 sublime-text2
 tcltls
