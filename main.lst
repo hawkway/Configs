@@ -141,6 +141,7 @@ libtool
 libunique
 libunrar
 libxft
+licenses
 linux
 linux-headers
 lm_sensors
@@ -154,6 +155,7 @@ lynx
 lzop
 m4
 make
+man-pages
 mcomix
 meld
 memcached
