@@ -45,6 +45,7 @@ dash
 deadbeef
 desmume
 devtools
+dhcpcd
 dialog
 diffutils
 dmenu
@@ -155,6 +156,7 @@ lynx
 lzop
 m4
 make
+man-db
 man-pages
 mcomix
 meld
@@ -250,6 +252,7 @@ steam
 steam-native-runtime
 sudo
 syslinux
+systemd-sysvcompat
 tangerine-icon-theme
 tar
 tcpdump
