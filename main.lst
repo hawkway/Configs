@@ -25,6 +25,7 @@ binutils
 bison
 bitlbee
 bleachbit
+bzip2
 cairo
 calibre
 catfish
@@ -40,6 +41,7 @@ coreutils
 cowsay
 cpanminus
 cronie
+cryptsetup
 curlftpfs
 dash
 deadbeef
@@ -68,12 +70,14 @@ ffmpegthumbs
 file
 filesystem
 filezilla
+findutils
 firefox
 flashplugin
 flex
 fontconfig
 fortune-mod
 fuseiso
+gawk
 gcolor2
 geckodriver
 gimp

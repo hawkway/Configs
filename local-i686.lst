@@ -3,12 +3,10 @@ artwiz-fonts
 attica-qt4
 auracle-git
 brave-bin
-clion
 clion-cmake
 clion-gdb
 clion-jre
 cower
-datagrip
 datagrip-jre
 dolphinpart4
 downgrade
@@ -18,7 +16,6 @@ exiftags
 gconf-gtk2
 gedit2
 geeh
-goland
 goland-jre
 gstreamer0.10
 gstreamer0.10-bad
@@ -82,7 +79,6 @@ ttf-ms-fonts
 ttf-vista-fonts
 unscd
 virtualbox-ext-oracle
-webstorm
 webstorm-jre
 wxgtk2.8
 xcursor-dmz
